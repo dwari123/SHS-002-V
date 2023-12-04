@@ -22,6 +22,9 @@
           "Factor": {
             "tableName": "ccf22452-b069-45bd-b208-f2aa065409b8"
           },
+          "Login Details": {
+            "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
+          },
           "Options_1": {
             "tableName": "ff92d1af-76aa-4b93-b5d2-32c44708555d"
           },
@@ -59,7 +62,8 @@
       "Questions_1",
       "Questions_2",
       "Options_1",
-      "Study(Administration)"
+      "Study(Administration)",
+      "Login Details"
     ],
     "dependencies": {},
     "dependents": [],
