@@ -49,12 +49,15 @@ Division As screen:
         ZIndex: =6
 
     Button1_1 As button:
+        DisabledFill: =Self.Fill
         Fill: =RGBA(5, 89, 8, 1)
         Height: =38
         HoverFill: =Self.Fill
         OnSelect: |-
             =UpdateContext({showpopup:true})
         PaddingLeft: =35
+        PressedColor: =Color.White
+        PressedFill: =Self.Fill
         Text: ="Add"
         Width: =116
         X: =1166
@@ -63,11 +66,14 @@ Division As screen:
 
     Icon15_1 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =38
+        FocusedBorderThickness: =8
+        Height: =25
         Icon: =Icon.Add
-        Width: =50
-        X: =1166
-        Y: =197
+        OnSelect: |-
+            =UpdateContext({showpopup:true})
+        Width: =25
+        X: =1191
+        Y: =202
         ZIndex: =8
 
     Container5 As groupContainer.manualLayoutContainer:
@@ -150,14 +156,38 @@ Division As screen:
         Y: =318
         ZIndex: =13
 
-    Container6 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(238, 204, 204, 1)
-        Height: =520
-        Visible: =showpopup
-        Width: =1066
-        X: =230
-        Y: =181
+    Icon5_19 As icon.HorizontalLine:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =1
+        Color: =RGBA(214, 223, 238, 1)
+        FocusedBorderThickness: =1
+        Height: =1
+        Icon: =Icon.HorizontalLine
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Rotation: =1
+        Width: =1050
+        X: =291
+        Y: =384
         ZIndex: =14
+
+    Container6 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(40, 134, 222, 1)
+        BorderThickness: =1
+        DropShadow: =DropShadow.ExtraBold
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =661
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Visible: =showpopup
+        Width: =1226
+        X: =70
+        Y: =54
+        ZIndex: =15
 
         Label17 As label:
             Align: =Align.Center
@@ -173,8 +203,9 @@ Division As screen:
         Form1 As form:
             DataSource: =Division_1
             DefaultMode: =FormMode.New
-            Height: =276
-            Width: =1066
+            Height: =379
+            Width: =1133
+            X: =48
             Y: =99
             ZIndex: =2
 
@@ -189,7 +220,7 @@ Division As screen:
                 MaxLength: =DataSourceInfo([@Division_1], DataSourceInfo.MaxLength, "Title")
                 Required: =true
                 Update: =DataCardValue1.Text
-                Width: =355
+                Width: =377
                 X: =0
                 Y: =0
                 ZIndex: =3
@@ -257,7 +288,7 @@ Division As screen:
                 MaxLength: =DataSourceInfo([@Division_1], DataSourceInfo.MaxLength, "DivisionCode")
                 Required: =true
                 Update: =DataCardValue2.Text
-                Width: =355
+                Width: =377
                 X: =1
                 Y: =0
                 ZIndex: =3
@@ -324,7 +355,7 @@ Division As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue4.SelectedItems
-                Width: =355
+                Width: =377
                 X: =2
                 Y: =0
                 ZIndex: =3
@@ -341,6 +372,7 @@ Division As screen:
 
                 DataCardValue4 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(12, 196, 193, 1)
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
@@ -389,7 +421,7 @@ Division As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue5.SelectedItems
-                Width: =355
+                Width: =377
                 X: =0
                 Y: =1
                 ZIndex: =3
@@ -406,6 +438,7 @@ Division As screen:
 
                 DataCardValue5 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(11, 191, 188, 1)
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
@@ -454,7 +487,7 @@ Division As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue6.SelectedItems
-                Width: =355
+                Width: =377
                 X: =1
                 Y: =1
                 ZIndex: =3
@@ -471,6 +504,7 @@ Division As screen:
 
                 DataCardValue6 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(10, 194, 160, 1)
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
@@ -478,6 +512,7 @@ Division As screen:
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
                     SearchItems: =Choices(Division_1.Reviewer,DataCardValue6.SearchText)
+                    SelectionFill: =RGBA(233, 79, 76, 1)
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
@@ -519,7 +554,7 @@ Division As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue7.SelectedItems
-                Width: =355
+                Width: =377
                 X: =2
                 Y: =1
                 ZIndex: =3
@@ -536,6 +571,7 @@ Division As screen:
 
                 DataCardValue7 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(14, 179, 170, 1)
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
@@ -584,7 +620,7 @@ Division As screen:
                 Height: =50
                 Required: =false
                 Update: =DataCardValue8.SelectedItems
-                Width: =355
+                Width: =377
                 X: =0
                 Y: =2
                 ZIndex: =3
@@ -601,6 +637,7 @@ Division As screen:
 
                 DataCardValue8 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(14, 179, 170, 1)
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
@@ -649,7 +686,7 @@ Division As screen:
                 Height: =50
                 Required: =false
                 Update: =DataCardValue9.SelectedItems
-                Width: =355
+                Width: =377
                 X: =1
                 Y: =2
                 ZIndex: =3
@@ -666,6 +703,7 @@ Division As screen:
 
                 DataCardValue9 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(14, 179, 170, 1)
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
@@ -714,7 +752,7 @@ Division As screen:
                 Height: =50
                 Required: =false
                 Update: =DataCardValue10.SelectedItems
-                Width: =355
+                Width: =377
                 X: =2
                 Y: =2
                 ZIndex: =3
@@ -731,6 +769,7 @@ Division As screen:
 
                 DataCardValue10 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(14, 179, 170, 1)
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
@@ -773,34 +812,17 @@ Division As screen:
             OnSelect: |-
                 =SubmitForm(Form1);NewForm(Form1);UpdateContext({showpopup:false});Notify("The division has been added successfully",NotificationType.Success)
             Text: ="Save"
-            X: =24
-            Y: =444
+            X: =795
+            Y: =558
             ZIndex: =3
 
         Button3_1 As button:
             OnSelect: |-
                 =UpdateContext({showpopup:false})
             Text: ="Cancel"
-            X: =428
-            Y: =444
+            X: =1002
+            Y: =558
             ZIndex: =4
-
-    Icon5_19 As icon.HorizontalLine:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        BorderThickness: =1
-        Color: =RGBA(214, 223, 238, 1)
-        FocusedBorderThickness: =1
-        Height: =1
-        Icon: =Icon.HorizontalLine
-        PaddingBottom: =10
-        PaddingLeft: =10
-        PaddingRight: =10
-        PaddingTop: =10
-        Rotation: =1
-        Width: =1050
-        X: =291
-        Y: =384
-        ZIndex: =15
 
     Editdivpopup As group:
         Height: =5
