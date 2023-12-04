@@ -49,10 +49,14 @@ Division As screen:
         ZIndex: =6
 
     Button1_1 As button:
+        Fill: =RGBA(5, 89, 8, 1)
+        Height: =38
+        HoverFill: =Self.Fill
         OnSelect: |-
             =UpdateContext({showpopup:true})
         PaddingLeft: =35
         Text: ="Add"
+        Width: =116
         X: =1166
         Y: =197
         ZIndex: =7
@@ -68,10 +72,9 @@ Division As screen:
 
     Container5 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(166, 166, 166, 0.4)
-        Height: =766
+        Height: =768
         Visible: =showpopup
         Width: =1366
-        Y: =2
         ZIndex: =9
 
     Gallery6 As gallery.galleryVertical:
