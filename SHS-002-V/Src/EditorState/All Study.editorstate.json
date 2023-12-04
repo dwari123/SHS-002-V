@@ -47,7 +47,7 @@
       "MetaDataIDKey": "",
       "Name": "Add doc_Button_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -948,7 +948,7 @@
       "MetaDataIDKey": "",
       "Name": "Icon10",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

@@ -52,26 +52,26 @@
             Height: =39
             Icon: =Icon.AddDocument
             Width: =34
-            X: =921
-            Y: =91
+            X: =598
+            Y: =96
             ZIndex: =4
 
         Search_1 As Search:
-            X: =625
+            X: =501
             Y: =94
             ZIndex: =5
 
         "'Add doc_Button_1' As 'Add doc_Button'":
-            X: =850
-            Y: =95
+            X: =731
+            Y: =93
             ZIndex: =6
 
         Button1 As button:
             Height: =48
             PaddingLeft: =35
             Text: ="Add"
-            X: =1031
-            Y: =94
+            X: =932
+            Y: =95
             ZIndex: =7
 
         Icon15 As icon.Add:
@@ -79,7 +79,7 @@
             Height: =38
             Icon: =Icon.Add
             Width: =50
-            X: =905
-            Y: =101
+            X: =936
+            Y: =100
             ZIndex: =8
 

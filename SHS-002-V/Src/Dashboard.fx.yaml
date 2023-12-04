@@ -43,3 +43,10 @@ Dashboard As screen:
                 Y: =90
                 ZIndex: =3
 
+    CanVasContainer_4 As groupContainer.manualLayoutContainer:
+        Height: =App.Height-Component1_1.ComHeaderHeight
+        Width: =App.Width-Component1_1.VarMenuWidth
+        X: =Component1_1.VarMenuWidth
+        Y: =Component1_1.ComHeaderHeight
+        ZIndex: =4
+
