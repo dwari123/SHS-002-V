@@ -2504,19 +2504,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Factors.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Code_DataCard2'.DataCardValue50.AccessibleLabel"
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Container_sg_PU_form_2.Form_factor.'Factor Code_DataCard1'.DataCardValue42.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Factors.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Code_DataCard2'.DataCardValue50.AccessibleLabel",
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Container_sg_PU_form_2.Form_factor.'Factor Code_DataCard1'.DataCardValue42.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Factors",
-                "type": "Factors.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Code_DataCard2'.DataCardValue50"
+                "type": "Factors.CanVasContainer_4.Container_sg_PU_form_2.Form_factor.'Factor Code_DataCard1'.DataCardValue42"
               }
             }
           ],
@@ -2534,19 +2534,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Factors.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Name_DataCard2'.DataCardValue51.AccessibleLabel"
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Container_sg_PU_form_2.Form_factor.'Factor Name_DataCard1'.DataCardValue43.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Factors.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Name_DataCard2'.DataCardValue51.AccessibleLabel",
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Container_sg_PU_form_2.Form_factor.'Factor Name_DataCard1'.DataCardValue43.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Factors",
-                "type": "Factors.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Name_DataCard2'.DataCardValue51"
+                "type": "Factors.CanVasContainer_4.Container_sg_PU_form_2.Form_factor.'Factor Name_DataCard1'.DataCardValue43"
               }
             }
           ],
@@ -2564,19 +2564,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Factors.Container_sg_PU_form_2.Form_factor.'Factor Code_DataCard1'.DataCardValue42.AccessibleLabel"
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Name_DataCard2'.DataCardValue51.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Factors.Container_sg_PU_form_2.Form_factor.'Factor Code_DataCard1'.DataCardValue42.AccessibleLabel",
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Name_DataCard2'.DataCardValue51.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Factors",
-                "type": "Factors.Container_sg_PU_form_2.Form_factor.'Factor Code_DataCard1'.DataCardValue42"
+                "type": "Factors.CanVasContainer_4.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Name_DataCard2'.DataCardValue51"
               }
             }
           ],
@@ -2594,19 +2594,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Factors.Container_sg_PU_form_2.Form_factor.'Factor Name_DataCard1'.DataCardValue43.AccessibleLabel"
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Code_DataCard2'.DataCardValue50.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Factors.Container_sg_PU_form_2.Form_factor.'Factor Name_DataCard1'.DataCardValue43.AccessibleLabel",
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Code_DataCard2'.DataCardValue50.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Factors",
-                "type": "Factors.Container_sg_PU_form_2.Form_factor.'Factor Name_DataCard1'.DataCardValue43"
+                "type": "Factors.CanVasContainer_4.Container_edit_SG_PU_2.'Form_edit-factor'.'Factor Code_DataCard2'.DataCardValue50"
               }
             }
           ],
@@ -2624,49 +2624,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Factors.Arrow1_7.AccessibleLabel"
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Gallery_factor.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Factors.Arrow1_7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Factors",
-                "type": "Factors.Arrow1_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Factors.Arrow1_7.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Factors.Arrow1_7.TabIndex",
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Gallery_factor.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Factors",
-                "type": "Factors.Arrow1_7"
+                "type": "Factors.CanVasContainer_4.Gallery_factor"
               }
             }
           ],
@@ -2684,19 +2654,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Factors.Gallery_factor.AccessibleLabel"
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Gallery_factor.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Factors.Gallery_factor.AccessibleLabel",
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Gallery_factor.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Factors",
-                "type": "Factors.Gallery_factor"
+                "type": "Factors.CanVasContainer_4.Gallery_factor"
               }
             }
           ],
@@ -2714,19 +2684,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Factors.Gallery_factor.TabIndex"
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Arrow1_7.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Factors.Gallery_factor.TabIndex",
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Arrow1_7.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Factors",
-                "type": "Factors.Gallery_factor"
+                "type": "Factors.CanVasContainer_4.Arrow1_7"
               }
             }
           ],
@@ -2738,6 +2708,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Arrow1_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Arrow1_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Factors",
+                "type": "Factors.CanVasContainer_4.Arrow1_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -6117,6 +6117,96 @@
                 "member": "Height",
                 "module": "All Study",
                 "type": "'All Study'.CanVasContainer_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Y",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Factors",
+                "type": "Factors.CanVasContainer_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Width",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "Factors",
+                "type": "Factors.CanVasContainer_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Factors.CanVasContainer_4.Height",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "Factors",
+                "type": "Factors.CanVasContainer_4"
               }
             }
           ],
