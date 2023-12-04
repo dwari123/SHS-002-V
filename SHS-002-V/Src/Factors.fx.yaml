@@ -213,27 +213,27 @@ Factors As screen:
             Action_factor As label:
                 Text: ="Action"
                 Width: =180
-                X: =870
-                Y: =318
+                X: =681
+                Y: =152
                 ZIndex: =3
 
             factorname As label:
                 Text: ="Factor Name"
                 Width: =180
-                X: =525
-                Y: =318
+                X: =336
+                Y: =152
                 ZIndex: =4
 
             Label33 As label:
                 Text: ="Map Division"
-                X: =942.8
-                Y: =318
+                X: =887
+                Y: =152
                 ZIndex: =5
 
             factorcode As label:
                 Text: ="Factor Code"
-                X: =323
-                Y: =318
+                X: =29
+                Y: =152
                 ZIndex: =6
 
         Group_Edit_Factor As group:
@@ -541,20 +541,19 @@ Factors As screen:
 
         Gallery_factor As gallery.galleryVertical:
             DelayItemLoading: =true
-            Height: =393
+            Height: =440
             Items: =Factor
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplateSize: =104
-            Width: =1050
-            X: =42.799999999999955
-            Y: =252
+            Width: =1092
+            Y: =192
             ZIndex: =20
 
             Label_segmentcode_2 As label:
                 OnSelect: =Select(Parent)
                 Text: =ThisItem.'Factor Code'
-                X: =27
+                X: =26
                 Y: =33
                 ZIndex: =1
 
@@ -563,8 +562,8 @@ Factors As screen:
                 OnSelect: =Select(Parent)
                 Text: =ThisItem.'Factor Name'
                 Width: =196
-                X: =231
-                Y: =40
+                X: =336
+                Y: =33
                 ZIndex: =2
 
             btn_edit_sgm_1 As button:
@@ -572,7 +571,7 @@ Factors As screen:
                     =UpdateContext({ShowPopup_edit:true})
                 Text: ="Edit"
                 Width: =100
-                X: =499
+                X: =599
                 Y: =33
                 ZIndex: =3
 
@@ -581,7 +580,7 @@ Factors As screen:
                     =UpdateContext({ShowPopup_del:true});
                 Text: ="Delete"
                 Width: =94
-                X: =681
+                X: =721
                 Y: =33
                 ZIndex: =4
 
