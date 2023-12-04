@@ -113,42 +113,6 @@ Component1 As CanvasComponent:
             Y: =33
             ZIndex: =6
 
-    MenuGallery As gallery.galleryVertical:
-        BorderColor: =RGBA(204, 231, 246, 1)
-        BorderThickness: =1
-        DelayItemLoading: =true
-        Height: =777
-        Items: =Component1.Menu
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: |-
-            =true;
-            Navigate(
-                ThisItem.TargetScreen,
-                ScreenTransition.None
-            )
-        TemplateFill: =If(ThisItem.Title=Component1.CurrentScreen,Color.Aquamarine,Color.White)
-        TemplatePadding: =1
-        TemplateSize: =42
-        Transition: =Transition.Pop
-        Visible: =ShowMenu
-        Width: =273
-        Y: =123
-        ZIndex: =2
-
-        Title_Parent As label:
-            Height: =37
-            HoverBorderColor: =
-            HoverColor: =
-            HoverFill: =
-            OnSelect: =Select(Parent)
-            PaddingLeft: =50
-            Size: =20
-            Text: =ThisItem.Title
-            Width: =280
-            Y: =5
-            ZIndex: =2
-
     Gallery3 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =98
@@ -178,4 +142,90 @@ Component1 As CanvasComponent:
             X: =30
             Y: =6
             ZIndex: =1
+
+    MainMenu As gallery.variableTemplateHeightGallery:
+        DelayItemLoading: =true
+        Height: =App.Height
+        Items: =Component1.Menu
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: |-
+            =Set(VarExpandMeu,!VarExpandMeu);
+            Navigate(ThisItem.TargetScreen,Transition.None);
+        TemplateSize: =280
+        Width: =If(ShowMenu,App.Width/5,0)
+        Y: =Container1.Height
+        ZIndex: =4
+
+        "Icon19 As icon.'3DPrinting'":
+            Height: =25
+            Icon: =ThisItem.Icon
+            OnSelect: =Select(Parent)
+            Width: =25
+            X: =6
+            Y: =9
+            ZIndex: =1
+
+        Label42 As label:
+            FontWeight: =FontWeight.Semibold
+            OnSelect: =Select(Parent)
+            PaddingLeft: =40
+            Text: =ThisItem.Title
+            Width: =MainMenu.Width
+            Y: =1
+            ZIndex: =2
+
+        SubMenu As gallery.variableTemplateHeightGallery:
+            DelayItemLoading: =true
+            Height: |-
+                =If(
+                    ThisItem.Title = "Dashboard",
+                    0,
+                    If(
+                        ThisItem.Title = "Inbox",
+                        140,
+                        If(
+                            ThisItem.Title = "Administration",
+                            370,
+                            If(
+                                ThisItem.Title = "Settings",
+                                50,
+                                If(
+                                    ThisItem.Title = "Configuration",
+                                    110,
+                                    0
+                                )
+                            )
+                        )
+                    )
+                )
+            Items: =ThisItem.SubMenu
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            OnSelect: |-
+                =
+                Navigate(ThisItem.TargetScreen,Transition.None);
+            TemplateSize: =280
+            Visible: =If(ThisItem.Title=MainMenu.Selected.Title,!VarExpandMeu)
+            Width: =If(ShowMenu,App.Width/5,0)
+            Y: =Label42.Height
+            ZIndex: =3
+
+            "Icon19_1 As icon.'3DPrinting'":
+                Height: =25
+                Icon: =ThisItem.Icon
+                OnSelect: =Select(Parent)
+                Width: =25
+                X: =40
+                Y: =9
+                ZIndex: =1
+
+            Label42_1 As label:
+                FontWeight: =FontWeight.Semibold
+                OnSelect: =Select(Parent)
+                PaddingLeft: =75
+                Text: =ThisItem.Title
+                Width: =SubMenu.Width
+                Y: =1
+                ZIndex: =2
 
