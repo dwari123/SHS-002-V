@@ -62,7 +62,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 964,
+            "PublishOrderIndex": 976,
             "Rules": [
               {
                 "Category": "Data",
@@ -303,7 +303,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 965,
+            "PublishOrderIndex": 977,
             "Rules": [
               {
                 "Category": "Design",
@@ -506,7 +506,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 966,
+            "PublishOrderIndex": 978,
             "Rules": [
               {
                 "Category": "Data",
@@ -822,7 +822,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 967,
+            "PublishOrderIndex": 979,
             "Rules": [
               {
                 "Category": "Design",
@@ -1064,7 +1064,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 968,
+            "PublishOrderIndex": 980,
             "Rules": [
               {
                 "Category": "Data",
@@ -1359,7 +1359,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 969,
+            "PublishOrderIndex": 981,
             "Rules": [
               {
                 "Category": "Design",
@@ -1562,7 +1562,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 963,
+        "PublishOrderIndex": 975,
         "Rules": [
           {
             "Category": "Design",
@@ -1751,7 +1751,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "MenuGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 971,
+            "PublishOrderIndex": 983,
             "Rules": [
               {
                 "Category": "Design",
@@ -1890,7 +1890,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "MenuGallery",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 972,
+            "PublishOrderIndex": 984,
             "Rules": [
               {
                 "Category": "Data",
@@ -2249,7 +2249,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 970,
+        "PublishOrderIndex": 982,
         "Rules": [
           {
             "Category": "Data",
@@ -2468,7 +2468,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 974,
+            "PublishOrderIndex": 986,
             "Rules": [
               {
                 "Category": "Design",
@@ -2565,7 +2565,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 975,
+            "PublishOrderIndex": 987,
             "Rules": [
               {
                 "Category": "Data",
@@ -2881,7 +2881,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 973,
+        "PublishOrderIndex": 985,
         "Rules": [
           {
             "Category": "Data",
