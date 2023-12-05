@@ -615,7 +615,10 @@ Factors As screen:
         ZIndex: =12
 
         Label16 As label:
-            Text: ="Manage "
+            FontWeight: =FontWeight.Bold
+            Height: =38
+            Text: ="Manage Factor-Diviison Mapping"
+            Width: =300
             X: =21
             Y: =15
             ZIndex: =1
