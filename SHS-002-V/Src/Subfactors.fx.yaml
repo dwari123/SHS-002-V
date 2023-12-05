@@ -928,6 +928,7 @@ Subfactors As screen:
             Container17 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(255, 184, 174, 1)
                 Height: =359
+                Visible: =deletemapdivsubfactpopup
                 Width: =772
                 X: =126
                 Y: =159
