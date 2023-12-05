@@ -953,7 +953,13 @@ Subfactors As screen:
                 ZIndex: =3
 
             Button9 As button:
-                Text: ="Button"
+                Text: ="Yes"
                 Y: =253
                 ZIndex: =4
+
+            Button9_1 As button:
+                Text: ="No"
+                X: =264
+                Y: =253
+                ZIndex: =5
 
