@@ -906,3 +906,13 @@ Subfactors As screen:
                 Y: =21
                 ZIndex: =2
 
+        Icon25 As icon.Cancel:
+            Height: =34
+            Icon: =Icon.Cancel
+            OnSelect: |-
+                =UpdateContext({Subfactmapdivpopup:fals
+            Width: =45
+            X: =886
+            Y: =27
+            ZIndex: =10
+
