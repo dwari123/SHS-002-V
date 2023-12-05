@@ -289,11 +289,3 @@ Component1 As CanvasComponent:
         Y: =135
         ZIndex: =5
 
-        Label16 As label:
-            FontWeight: =FontWeight.Bold
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Title
-            X: =111
-            Y: =30
-            ZIndex: =1
-
