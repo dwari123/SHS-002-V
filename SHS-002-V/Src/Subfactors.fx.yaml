@@ -943,8 +943,10 @@ Subfactors As screen:
                 ZIndex: =2
 
             Label40 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
                 Height: =100
-                Text: ="Text"
+                Text: ="Are you sure you want to delete?"
                 Width: =628
                 Y: =101
                 ZIndex: =3
