@@ -828,9 +828,18 @@ Factors As screen:
                 ZIndex: =9
 
             Icon26 As icon.HorizontalLine:
+                BorderThickness: =1
                 Height: =0
                 Icon: =Icon.HorizontalLine
                 Width: =962
                 Y: =290
                 ZIndex: =10
+
+            Icon26_1 As icon.HorizontalLine:
+                BorderThickness: =1
+                Height: =0
+                Icon: =Icon.HorizontalLine
+                Width: =962
+                Y: =390
+                ZIndex: =11
 
