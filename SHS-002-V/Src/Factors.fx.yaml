@@ -707,7 +707,9 @@ Factors As screen:
             ZIndex: =3
 
         Label18 As label:
-            Text: ="Text"
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Text: ="Division"
             X: =21
             Y: =338
             ZIndex: =4
