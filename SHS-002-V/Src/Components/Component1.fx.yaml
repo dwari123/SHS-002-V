@@ -2,7 +2,7 @@ Component1 As CanvasComponent:
     Adminicon_menu: |-
         =Table(
             {
-                Title: "MyProfile(Admin)",
+                Title: "MyProfile",
                 TargetScreen: 'MyProfile(Admin)'
                 
             },
