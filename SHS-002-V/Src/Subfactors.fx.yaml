@@ -758,8 +758,11 @@ Subfactors As screen:
         ZIndex: =22
 
         Label27 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =34
+            Size: =20
             Text: ="Manage factor-Division Mapping"
-            Width: =282
+            Width: =458
             X: =39
             Y: =27
             ZIndex: =1
