@@ -800,11 +800,17 @@ Factors As screen:
                 Label26 As label:
                     Align: =Align.Center
                     FontWeight: =FontWeight.Bold
-                    Height: =46
+                    Height: =62
                     Size: =20
                     Text: ="Are you sure you want to delete?"
                     Width: =378
                     X: =33
                     Y: =99
                     ZIndex: =3
+
+                Button10 As button:
+                    Text: ="Button"
+                    X: =33
+                    Y: =200
+                    ZIndex: =4
 
