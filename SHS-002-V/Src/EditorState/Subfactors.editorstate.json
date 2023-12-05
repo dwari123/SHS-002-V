@@ -14308,7 +14308,14 @@
         "HoverBorderColor",
         "FocusedBorderColor",
         "ZIndex",
-        "BorderThickness",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "BorderThickness",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "FocusedBorderThickness"
       ],
       "HasDynamicProperties": false,

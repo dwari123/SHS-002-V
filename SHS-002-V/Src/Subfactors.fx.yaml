@@ -930,11 +930,12 @@ Subfactors As screen:
                 Size: =20
                 Text: ="Confirmation"
                 Width: =243
-                X: =30
+                X: =223
                 Y: =21
                 ZIndex: =1
 
             Icon27 As icon.HorizontalLine:
+                BorderThickness: =1
                 Height: =0
                 Icon: =Icon.HorizontalLine
                 Width: =772
