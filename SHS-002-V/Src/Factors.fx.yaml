@@ -9,7 +9,25 @@ Factors As screen:
         Width: =App.Width-Component1_1.VarMenuWidth
         X: =Component1_12.VarMenuWidth
         Y: =Component1_1.ComHeaderHeight
-        ZIndex: =10
+        ZIndex: =3
+
+        Btn_Add_factor As button:
+            Fill: =RGBA(6, 89, 6, 1)
+            HoverFill: =Self.Fill
+            OnSelect: |-
+                =UpdateContext({ShowPopup : true})
+            PaddingLeft: =45
+            PressedColor: =Color.White
+            PressedFill: =Self.Fill
+            Text: ="Add"
+            X: =932
+            Y: =90
+            ZIndex: =1
+
+        "'Add doc_Button_7' As 'Add doc_Button'":
+            X: =727
+            Y: =85
+            ZIndex: =2
 
         Group_showpopup_factor As group:
             Height: =5
@@ -23,7 +41,7 @@ Factors As screen:
                 Height: =645
                 Visible: =ShowPopup
                 Width: =1092.8
-                ZIndex: =1
+                ZIndex: =9
 
             Container_sg_PU_form_2 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(233, 79, 76, 1)
@@ -31,7 +49,7 @@ Factors As screen:
                 Visible: =ShowPopup
                 Width: =1092.8
                 Y: =57
-                ZIndex: =9
+                ZIndex: =13
 
                 Label30_2 As label:
                     Height: =58
@@ -203,6 +221,81 @@ Factors As screen:
                     Y: =507
                     ZIndex: =4
 
+        Gallery_factor As gallery.galleryVertical:
+            DelayItemLoading: =true
+            Height: =440
+            Items: =Factor
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =104
+            Width: =1092
+            Y: =192
+            ZIndex: =3
+
+            Label_segmentcode_2 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'Factor Code'
+                X: =26
+                Y: =33
+                ZIndex: =1
+
+            Label_segmentname_2 As label:
+                Height: =33
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'Factor Name'
+                Width: =196
+                X: =336
+                Y: =33
+                ZIndex: =2
+
+            btn_edit_sgm_1 As button:
+                OnSelect: |-
+                    =UpdateContext({ShowPopup_edit:true})
+                Text: ="Edit"
+                Width: =100
+                X: =599
+                Y: =33
+                ZIndex: =3
+
+            btn_del_sgm_1 As button:
+                OnSelect: |-
+                    =UpdateContext({ShowPopup_del:true});
+                Text: ="Delete"
+                Width: =94
+                X: =721
+                Y: =33
+                ZIndex: =4
+
+            Label32_1 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Action
+                X: =427
+                Y: =33
+                ZIndex: =5
+
+            Icon20 As icon.ArrowRight:
+                Height: =45
+                Icon: =Icon.ArrowRight
+                OnSelect: |-
+                    =UpdateContext({Mapdivpopupfact:true})
+                Width: =44
+                X: =895
+                Y: =21
+                ZIndex: =6
+
+        Label12_3 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =17
+            Text: ="Factors"
+            X: =29.799999999999955
+            Y: =85
+            ZIndex: =4
+
+        Search_7 As Search:
+            X: =446
+            Y: =85
+            ZIndex: =5
+
         Group_header_factor As group:
             Height: =5
             Width: =5
@@ -215,26 +308,26 @@ Factors As screen:
                 Width: =180
                 X: =681
                 Y: =152
-                ZIndex: =3
+                ZIndex: =6
 
             factorname As label:
                 Text: ="Factor Name"
                 Width: =180
                 X: =336
                 Y: =152
-                ZIndex: =4
+                ZIndex: =7
 
             Label33 As label:
                 Text: ="Map Division"
                 X: =887
                 Y: =152
-                ZIndex: =5
+                ZIndex: =8
 
             factorcode As label:
                 Text: ="Factor Code"
                 X: =29
                 Y: =152
-                ZIndex: =6
+                ZIndex: =10
 
         Group_Edit_Factor As group:
             Height: =5
@@ -248,7 +341,7 @@ Factors As screen:
                 Height: =645
                 Visible: =ShowPopup_edit
                 Width: =1092.8
-                ZIndex: =7
+                ZIndex: =14
 
             Container_edit_SG_PU_2 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(40, 134, 222, 1)
@@ -256,7 +349,7 @@ Factors As screen:
                 Visible: =ShowPopup_edit
                 Width: =1092.8
                 Y: =70
-                ZIndex: =10
+                ZIndex: =15
 
                 btn_save_edit_2 As button:
                     OnSelect: |-
@@ -427,15 +520,6 @@ Factors As screen:
                             Y: =DataCardKey51.Y
                             ZIndex: =4
 
-        Arrow1_7 As arrow.backArrow:
-            Fill: =RGBA(0, 18, 107, 1)
-            Height: =34
-            OnSelect: =Navigate(Administration)
-            Width: =32
-            X: =29.799999999999955
-            Y: =24
-            ZIndex: =14
-
         Group_delete_factor As group:
             Height: =5
             Width: =5
@@ -448,7 +532,7 @@ Factors As screen:
                 Height: =645
                 Visible: =ShowPopup_del
                 Width: =1092.8
-                ZIndex: =12
+                ZIndex: =11
 
             container_del_confirmation_factor As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(83, 144, 164, 1)
@@ -457,7 +541,7 @@ Factors As screen:
                 Width: =695
                 X: =339
                 Y: =274
-                ZIndex: =13
+                ZIndex: =12
 
                 Label34_2 As label:
                     Text: ="Confirmation"
@@ -491,17 +575,13 @@ Factors As screen:
                     Y: =225
                     ZIndex: =4
 
-        Label12_3 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =17
-            Text: ="Factors"
+        Arrow1_7 As arrow.backArrow:
+            Fill: =RGBA(0, 18, 107, 1)
+            Height: =34
+            OnSelect: =Navigate(Administration)
+            Width: =32
             X: =29.799999999999955
-            Y: =85
-            ZIndex: =15
-
-        Search_7 As Search:
-            X: =446
-            Y: =85
+            Y: =24
             ZIndex: =16
 
         Icon5_6 As icon.HorizontalLine:
@@ -521,86 +601,6 @@ Factors As screen:
             Y: =150
             ZIndex: =17
 
-        "'Add doc_Button_7' As 'Add doc_Button'":
-            X: =727
-            Y: =85
-            ZIndex: =18
-
-        Btn_Add_factor As button:
-            Fill: =RGBA(6, 89, 6, 1)
-            HoverFill: =Self.Fill
-            OnSelect: |-
-                =UpdateContext({ShowPopup : true})
-            PaddingLeft: =45
-            PressedColor: =Color.White
-            PressedFill: =Self.Fill
-            Text: ="Add"
-            X: =932
-            Y: =90
-            ZIndex: =19
-
-        Gallery_factor As gallery.galleryVertical:
-            DelayItemLoading: =true
-            Height: =440
-            Items: =Factor
-            Layout: =Layout.Vertical
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =104
-            Width: =1092
-            Y: =192
-            ZIndex: =20
-
-            Label_segmentcode_2 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'Factor Code'
-                X: =26
-                Y: =33
-                ZIndex: =1
-
-            Label_segmentname_2 As label:
-                Height: =33
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'Factor Name'
-                Width: =196
-                X: =336
-                Y: =33
-                ZIndex: =2
-
-            btn_edit_sgm_1 As button:
-                OnSelect: |-
-                    =UpdateContext({ShowPopup_edit:true})
-                Text: ="Edit"
-                Width: =100
-                X: =599
-                Y: =33
-                ZIndex: =3
-
-            btn_del_sgm_1 As button:
-                OnSelect: |-
-                    =UpdateContext({ShowPopup_del:true});
-                Text: ="Delete"
-                Width: =94
-                X: =721
-                Y: =33
-                ZIndex: =4
-
-            Label32_1 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.Action
-                X: =427
-                Y: =33
-                ZIndex: =5
-
-            Icon20 As icon.ArrowRight:
-                Height: =45
-                Icon: =Icon.ArrowRight
-                OnSelect: |-
-                    =UpdateContext({Mapdivpopupfact:true})
-                Width: =44
-                X: =895
-                Y: =21
-                ZIndex: =6
-
     MapdivFactPopup As group:
         Height: =5
         Width: =5
@@ -613,7 +613,7 @@ Factors As screen:
             Height: =768
             Visible: =Mapdivpopupfact
             Width: =1366
-            ZIndex: =11
+            ZIndex: =2
 
         Container13 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(253, 207, 180, 1)
@@ -622,7 +622,7 @@ Factors As screen:
             Width: =962
             X: =189
             Y: =123
-            ZIndex: =12
+            ZIndex: =4
 
             Label16 As label:
                 FontWeight: =FontWeight.Bold
