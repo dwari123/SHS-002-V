@@ -757,3 +757,9 @@ Subfactors As screen:
         Y: =174
         ZIndex: =22
 
+        Label27 As label:
+            Text: ="Manage factor-"
+            X: =24
+            Y: =27
+            ZIndex: =1
+
