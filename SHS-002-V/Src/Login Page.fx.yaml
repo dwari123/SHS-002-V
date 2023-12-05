@@ -123,19 +123,21 @@
         ZIndex: =11
 
     Label43 As label:
-        Color: =RGBA(9, 33, 98, 1)
-        FontWeight: =FontWeight.Semibold
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =15
         Text: ="UserName"
-        X: =885
+        X: =910
         Y: =267
         ZIndex: =12
 
     Label43_1 As label:
-        Color: =RGBA(9, 33, 98, 1)
-        FontWeight: =FontWeight.Semibold
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =15
         Text: ="Password"
-        X: =885
-        Y: =388
+        X: =910
+        Y: =385
         ZIndex: =13
 
     Label44 As label:
@@ -144,8 +146,8 @@
         Height: =24
         Text: ="*"
         Width: =26
-        X: =872
-        Y: =267
+        X: =890
+        Y: =280
         ZIndex: =14
 
     Label44_1 As label:
@@ -154,26 +156,26 @@
         Height: =24
         Text: ="*"
         Width: =26
-        X: =872
-        Y: =388
+        X: =890
+        Y: =397
         ZIndex: =15
 
     UsrNameTxt As text:
         Default: =""
         Height: =47
         HintText: ="Enter User Name"
-        Width: =404
-        X: =885
+        Width: =339
+        X: =910
         Y: =314
         ZIndex: =16
 
     PswdTxt As text:
         Default: =""
-        Height: =51
+        Height: =49
         HintText: ="Enter Password"
         Mode: =TextMode.Password
-        Width: =404
-        X: =885
-        Y: =433
+        Width: =339
+        X: =910
+        Y: =426
         ZIndex: =17
 
