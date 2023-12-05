@@ -712,7 +712,7 @@ Factors As screen:
                 Height: =44
                 Icon: =Icon.Add
                 OnSelect: |-
-                    =SubmitForm(Form3);NewForm(Form3); UpdateContext({Mapdivpopupfact:false});Notify("Item added Successfully",NotificationType.Success)
+                    =SubmitForm(Form3);NewForm(Form3);Notify("Item added Successfully",NotificationType.Success); UpdateContext({Mapdivpopupfact:false})
                 Width: =56
                 X: =333
                 Y: =225
