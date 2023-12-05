@@ -283,6 +283,7 @@ Component1 As CanvasComponent:
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =98
+        Visible: =ShowMenuadmin
         Width: =379
         X: =987
         Y: =135
