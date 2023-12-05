@@ -925,7 +925,7 @@ Subfactors As screen:
             ZIndex: =11
 
             Label39 As label:
-                Text: ="Text"
+                Text: ="Confirmation"
                 X: =30
                 Y: =21
                 ZIndex: =1
