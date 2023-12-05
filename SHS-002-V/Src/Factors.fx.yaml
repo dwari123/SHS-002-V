@@ -762,3 +762,9 @@ Factors As screen:
                     Y: =21
                     ZIndex: =2
 
+            Button9 As button:
+                Text: ="Button"
+                X: =759
+                Y: =33
+                ZIndex: =7
+
