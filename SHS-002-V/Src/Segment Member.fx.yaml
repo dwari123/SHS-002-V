@@ -11,6 +11,25 @@
         Y: =Component1_1.ComHeaderHeight
         ZIndex: =19
 
+        Segment_sm As label:
+            Text: ="Segments"
+            X: =42.799999999999955
+            Y: =193
+            ZIndex: =1
+
+        Code_sm As label:
+            Text: ="Code"
+            X: =257.79999999999995
+            Y: =193
+            ZIndex: =2
+
+        SegmentMember As label:
+            Text: ="Segment Member"
+            Width: =180
+            X: =462.79999999999995
+            Y: =193
+            ZIndex: =3
+
         Group_delete_segmentmember As group:
             Height: =5
             Width: =5
@@ -23,7 +42,7 @@
                 Height: =645
                 Visible: =ShowPopup_del
                 Width: =1092.8
-                ZIndex: =1
+                ZIndex: =10
 
             container_del_confirmation_1 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(83, 144, 164, 1)
@@ -32,7 +51,7 @@
                 Width: =695
                 X: =339
                 Y: =274
-                ZIndex: =2
+                ZIndex: =11
 
                 Label34_1 As label:
                     Text: ="Confirmation"
@@ -66,6 +85,66 @@
                     Y: =225
                     ZIndex: =4
 
+        Action_sgm As label:
+            Text: ="Action"
+            Width: =180
+            X: =868.8
+            Y: =193
+            ZIndex: =4
+
+        Gallery_segmentmember As gallery.galleryVertical:
+            DelayItemLoading: =true
+            Height: =412
+            Items: ='Segment Member_1'
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =104
+            Width: =1050
+            X: =42.799999999999955
+            Y: =233
+            ZIndex: =5
+
+            Label_segmentcode_1 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Segments
+                X: =27
+                Y: =33
+                ZIndex: =1
+
+            Label_segmentname_1 As label:
+                Height: =33
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Code
+                Width: =196
+                X: =231
+                Y: =40
+                ZIndex: =2
+
+            btn_edit_sgm As button:
+                OnSelect: |-
+                    =UpdateContext({ShowPopup_edit:true})
+                Text: ="Edit"
+                Width: =100
+                X: =782
+                Y: =33
+                ZIndex: =3
+
+            btn_del_sgm As button:
+                OnSelect: |-
+                    =UpdateContext({ShowPopup_del:true});
+                Text: ="Delete"
+                Width: =94
+                X: =921
+                Y: =33
+                ZIndex: =4
+
+            Label32 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'Segment Member'
+                X: =427
+                Y: =33
+                ZIndex: =5
+
         Group_Edit_Segmentmember As group:
             Height: =5
             Width: =5
@@ -78,7 +157,7 @@
                 Height: =645
                 Visible: =ShowPopup_edit
                 Width: =1092.8
-                ZIndex: =3
+                ZIndex: =12
 
             Container_edit_SG_PU_1 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(40, 134, 222, 1)
@@ -86,7 +165,7 @@
                 Visible: =ShowPopup_edit
                 Width: =1092.8
                 Y: =70
-                ZIndex: =4
+                ZIndex: =13
 
                 btn_save_edit_1 As button:
                     OnSelect: |-
@@ -325,6 +404,15 @@
                             Y: =DataCardKey46.Y
                             ZIndex: =4
 
+        Label12_2 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =17
+            Text: ="Segment Member"
+            Width: =228
+            X: =29.799999999999955
+            Y: =85
+            ZIndex: =6
+
         Group_showpopup_segmentmember As group:
             Height: =5
             Width: =5
@@ -337,7 +425,7 @@
                 Height: =645
                 Visible: =ShowPopup
                 Width: =1092.8
-                ZIndex: =5
+                ZIndex: =14
 
             Container_sg_PU_form_1 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(233, 79, 76, 1)
@@ -345,7 +433,7 @@
                 Visible: =ShowPopup
                 Width: =1092.8
                 Y: =57
-                ZIndex: =7
+                ZIndex: =15
 
                 Label30_1 As label:
                     Height: =58
@@ -585,6 +673,29 @@
                     Y: =507
                     ZIndex: =4
 
+        Search_6 As Search:
+            X: =526
+            Y: =82
+            ZIndex: =7
+
+        "'Add doc_Button_6' As 'Add doc_Button'":
+            X: =746
+            Y: =79
+            ZIndex: =8
+
+        Btn_Add_segmentmember As button:
+            Fill: =RGBA(6, 89, 6, 1)
+            HoverFill: =Self.Fill
+            OnSelect: |-
+                =UpdateContext({ShowPopup : true})
+            PaddingLeft: =45
+            PressedColor: =Color.White
+            PressedFill: =Self.Fill
+            Text: ="Add"
+            X: =919
+            Y: =84
+            ZIndex: =9
+
         Arrow1_6 As arrow.backArrow:
             Fill: =RGBA(0, 18, 107, 1)
             Height: =34
@@ -592,21 +703,7 @@
             Width: =32
             X: =29.799999999999955
             Y: =24
-            ZIndex: =8
-
-        Label12_2 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =17
-            Text: ="Segment Member"
-            Width: =228
-            X: =29.799999999999955
-            Y: =85
-            ZIndex: =9
-
-        Search_6 As Search:
-            X: =526
-            Y: =82
-            ZIndex: =10
+            ZIndex: =16
 
         Icon5_5 As icon.HorizontalLine:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -623,102 +720,5 @@
             Width: =1050
             X: =29.799999999999955
             Y: =150
-            ZIndex: =11
-
-        "'Add doc_Button_6' As 'Add doc_Button'":
-            X: =746
-            Y: =79
-            ZIndex: =12
-
-        Btn_Add_segmentmember As button:
-            Fill: =RGBA(6, 89, 6, 1)
-            HoverFill: =Self.Fill
-            OnSelect: |-
-                =UpdateContext({ShowPopup : true})
-            PaddingLeft: =45
-            PressedColor: =Color.White
-            PressedFill: =Self.Fill
-            Text: ="Add"
-            X: =919
-            Y: =84
-            ZIndex: =13
-
-        Gallery_segmentmember As gallery.galleryVertical:
-            DelayItemLoading: =true
-            Height: =412
-            Items: ='Segment Member_1'
-            Layout: =Layout.Vertical
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =104
-            Width: =1050
-            X: =42.799999999999955
-            Y: =233
-            ZIndex: =14
-
-            Label_segmentcode_1 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.Segments
-                X: =27
-                Y: =33
-                ZIndex: =1
-
-            Label_segmentname_1 As label:
-                Height: =33
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.Code
-                Width: =196
-                X: =231
-                Y: =40
-                ZIndex: =2
-
-            btn_edit_sgm As button:
-                OnSelect: |-
-                    =UpdateContext({ShowPopup_edit:true})
-                Text: ="Edit"
-                Width: =100
-                X: =782
-                Y: =33
-                ZIndex: =3
-
-            btn_del_sgm As button:
-                OnSelect: |-
-                    =UpdateContext({ShowPopup_del:true});
-                Text: ="Delete"
-                Width: =94
-                X: =921
-                Y: =33
-                ZIndex: =4
-
-            Label32 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'Segment Member'
-                X: =427
-                Y: =33
-                ZIndex: =5
-
-        Segment_sm As label:
-            Text: ="Segments"
-            X: =42.799999999999955
-            Y: =193
-            ZIndex: =15
-
-        Code_sm As label:
-            Text: ="Code"
-            X: =257.79999999999995
-            Y: =193
-            ZIndex: =16
-
-        SegmentMember As label:
-            Text: ="Segment Member"
-            Width: =180
-            X: =462.79999999999995
-            Y: =193
             ZIndex: =17
-
-        Action_sgm As label:
-            Text: ="Action"
-            Width: =180
-            X: =868.8
-            Y: =193
-            ZIndex: =18
 
