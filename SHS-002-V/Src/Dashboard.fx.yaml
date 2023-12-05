@@ -1,9 +1,5 @@
 Dashboard As screen:
 
-    Component1_1 As Component1:
-        CurrentScreen: ="Dashboard"
-        Height: =768
-
     CanVasContainer As groupContainer.manualLayoutContainer:
         Height: =App.Height-Component1_1.ComHeaderHeight
         Width: =App.Width-Component1_1.VarMenuWidth
@@ -42,4 +38,8 @@ Dashboard As screen:
                 X: =36
                 Y: =90
                 ZIndex: =3
+
+    Component1_1 As Component1:
+        Height: =768
+        ZIndex: =4
 
