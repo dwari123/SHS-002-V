@@ -79,7 +79,7 @@
         ZIndex: =9
 
     Button11 As button:
-        OnSelect: |-
+        OnSelect: |
             =If(
                 !IsBlank(
                     LookUp(
@@ -91,14 +91,16 @@
                     UsrNameTxt.Text = "admin",
                     Navigate(Dashboard),
                     If(
-                        UsrNameTxt.Text = "Champion",
+                        UsrNameTxt.Text = "champion",
                         Navigate('Dashboard(C)')
                     )
                 ),
-                Notify("Please Enter User Name And PAssword"),
+                Notify("Please Enter Valid User Name And Password"),
                 NotificationType.Error,
                 2000
-            )
+            );
+            Reset(UsrNameTxt);
+            Reset(PswdTxt);
         Text: ="Login"
         X: =998
         Y: =567
@@ -153,6 +155,7 @@
         Default: =""
         Height: =51
         HintText: ="Enter Password"
+        Mode: =TextMode.Password
         Width: =404
         X: =885
         Y: =433
