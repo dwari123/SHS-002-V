@@ -763,7 +763,9 @@ Factors As screen:
                     ZIndex: =2
 
             Button9 As button:
-                Text: ="Button"
+                OnSelect: |-
+                    =UpdateContext({Mapdivpopupfact:false})
+                Text: ="Cancel"
                 X: =759
                 Y: =33
                 ZIndex: =7
