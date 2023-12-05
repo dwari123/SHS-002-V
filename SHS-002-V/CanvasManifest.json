@@ -116,7 +116,7 @@
     "ManualOfflineProfileId": "",
     "Name": "SHS-002-V",
     "OriginatingVersion": "1.334",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 3,
     "ShowStatusBar": false
   },
   "PublishInfo": {

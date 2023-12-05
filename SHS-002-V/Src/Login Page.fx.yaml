@@ -92,7 +92,20 @@
                     Navigate(Dashboard),
                     If(
                         UsrNameTxt.Text = "champion",
-                        Navigate('Dashboard(C)')
+                        Navigate('Dashboard(C)'),
+                        If(
+                        UsrNameTxt.Text = "approver1",
+                        Navigate('Dashboard(Approver1)'),
+                         If(
+                        UsrNameTxt.Text = "approver2",
+                        Navigate('Dashboard(Approver2)'),
+                         If(
+                        UsrNameTxt.Text = "approver3",
+                        Navigate('Dashboard 3'),
+                         If(
+                        UsrNameTxt.Text = "approver1",
+                        Navigate('Dashboard 4')
+                    )
                     )
                 ),
                 Notify("Please Enter Valid User Name And Password"),
