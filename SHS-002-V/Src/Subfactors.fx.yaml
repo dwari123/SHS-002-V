@@ -734,3 +734,12 @@ Subfactors As screen:
                 Y: =33
                 ZIndex: =5
 
+            Icon22 As icon.ArrowRight:
+                Height: =67
+                Icon: =Icon.ArrowRight
+                OnSelect: =Select(Parent)
+                Width: =50
+                X: =916
+                Y: =9
+                ZIndex: =6
+
