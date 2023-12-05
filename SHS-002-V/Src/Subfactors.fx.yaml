@@ -934,3 +934,10 @@ Subfactors As screen:
                 Y: =21
                 ZIndex: =1
 
+            Icon27 As icon.HorizontalLine:
+                Height: =0
+                Icon: =Icon.HorizontalLine
+                Width: =772
+                Y: =66
+                ZIndex: =2
+
