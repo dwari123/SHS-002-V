@@ -827,3 +827,10 @@ Factors As screen:
                 Y: =15
                 ZIndex: =9
 
+            Icon26 As icon.HorizontalLine:
+                Height: =0
+                Icon: =Icon.HorizontalLine
+                Width: =962
+                Y: =290
+                ZIndex: =10
+

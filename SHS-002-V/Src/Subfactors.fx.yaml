@@ -910,7 +910,7 @@ Subfactors As screen:
             Height: =34
             Icon: =Icon.Cancel
             OnSelect: |-
-                =UpdateContext({Subfactmapdivpopup:fals
+                =UpdateContext({Subfactmapdivpopup:false})
             Width: =45
             X: =886
             Y: =27
