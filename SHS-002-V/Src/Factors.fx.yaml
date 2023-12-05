@@ -716,6 +716,8 @@ Factors As screen:
             ZIndex: =4
 
         Label18_1 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =16
             Text: ="Action"
             X: =218
             Y: =338
