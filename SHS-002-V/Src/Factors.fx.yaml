@@ -798,7 +798,7 @@ Factors As screen:
                     ZIndex: =2
 
                 Label26 As label:
-                    Text: ="Text"
+                    Text: ="Are you sure you want to delete?"
                     X: =33
                     Y: =99
                     ZIndex: =3
