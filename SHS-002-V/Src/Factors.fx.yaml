@@ -601,155 +601,164 @@ Factors As screen:
                 Y: =21
                 ZIndex: =6
 
-    Container2 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(122, 138, 143, 0.45)
-        Height: =768
-        Width: =1366
-        ZIndex: =11
+    MapdivFactPopup As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =13
 
-    Container13 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(253, 207, 180, 1)
-        Height: =645
-        Width: =962
-        X: =189
-        Y: =123
-        ZIndex: =12
+        Container2 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(122, 138, 143, 0.45)
+            Height: =768
+            Visible: =Mapdivpopupfact
+            Width: =1366
+            ZIndex: =11
 
-        Label16 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =20
-            Text: ="Manage Factor-Diviison Mapping"
-            Width: =452
-            X: =21
-            Y: =15
-            ZIndex: =1
-
-        Form3 As form:
-            DataSource: ='MapDiv(Factors)'
-            DefaultMode: =FormMode.New
-            Height: =104
-            Width: =866
-            X: =34
-            Y: =186
-            ZIndex: =2
-
-            Division_DataCard1 As typedDataCard.comboBoxEditCard:
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="Division"
-                Default: =ThisItem.Division
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'MapDiv(Factors)'],DataSourceInfo.DisplayName,"Division")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                Required: =true
-                Update: =DataCardValue24.Selected
-                Width: =288
-                X: =0
-                Y: =0
-                ZIndex: =3
-
-                DataCardKey24 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue24 As combobox:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    DefaultSelectedItems: =Parent.Default
-                    DisplayFields: =["Value"]
-                    DisplayMode: =Parent.DisplayMode
-                    Items: =Choices([@'MapDiv(Factors)'].Division)
-                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                    SearchFields: =["Value"]
-                    SearchItems: =Choices('MapDiv(Factors)'.Division,DataCardValue24.SearchText)
-                    SelectMultiple: =false
-                    Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey24.Y + DataCardKey24.Height + 5
-                    ZIndex: =2
-
-                ErrorMessage24 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue24.Y + DataCardValue24.Height
-                    ZIndex: =3
-
-                StarVisible24 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey24.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey24.Y
-                    ZIndex: =4
-
-        Icon14 As icon.Add:
-            Height: =44
-            Icon: =Icon.Add
-            OnSelect: |-
-                =SubmitForm(Form3);NewForm(Form3);UpdateContext({Mapdivpopupfact:false})
-            Width: =56
-            X: =333
-            Y: =225
-            ZIndex: =3
-
-        Label18 As label:
-            Align: =Align.Center
-            FontWeight: =FontWeight.Bold
-            Size: =16
-            Text: ="Division"
-            X: =21
-            Y: =338
-            ZIndex: =4
-
-        Label18_1 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =16
-            Text: ="Action"
-            X: =304
-            Y: =338
-            ZIndex: =5
-
-        Gallery8 As gallery.galleryVertical:
-            DelayItemLoading: =true
-            Height: =244
-            Items: ='MapDiv(Factors)'
-            Layout: =Layout.Vertical
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =108
+        Container13 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(253, 207, 180, 1)
+            Height: =645
+            Visible: =Mapdivpopupfact
             Width: =962
-            Y: =401
-            ZIndex: =6
+            X: =189
+            Y: =123
+            ZIndex: =12
 
-            Label19 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.Division.Value
-                Width: =200
-                X: =15
-                Y: =21
+            Label16 As label:
+                FontWeight: =FontWeight.Bold
+                Size: =20
+                Text: ="Manage Factor-Diviison Mapping"
+                Width: =452
+                X: =21
+                Y: =15
                 ZIndex: =1
 
-            Button7 As button:
-                OnSelect: =Select(Parent)
-                Text: ="Delete"
-                Width: =98
-                X: =316
-                Y: =21
+            Form3 As form:
+                DataSource: ='MapDiv(Factors)'
+                DefaultMode: =FormMode.New
+                Height: =104
+                Width: =866
+                X: =34
+                Y: =186
                 ZIndex: =2
+
+                Division_DataCard1 As typedDataCard.comboBoxEditCard:
+                    BorderStyle: =BorderStyle.Solid
+                    DataField: ="Division"
+                    Default: =ThisItem.Division
+                    DisplayMode: =Parent.DisplayMode
+                    DisplayName: =DataSourceInfo([@'MapDiv(Factors)'],DataSourceInfo.DisplayName,"Division")
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =50
+                    Required: =true
+                    Update: =DataCardValue24.Selected
+                    Width: =288
+                    X: =0
+                    Y: =0
+                    ZIndex: =3
+
+                    DataCardKey24 As label:
+                        AutoHeight: =true
+                        Height: =34
+                        Text: =Parent.DisplayName
+                        Width: =Parent.Width - 60
+                        Wrap: =false
+                        X: =30
+                        Y: =10
+                        ZIndex: =1
+
+                    DataCardValue24 As combobox:
+                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                        DefaultSelectedItems: =Parent.Default
+                        DisplayFields: =["Value"]
+                        DisplayMode: =Parent.DisplayMode
+                        Items: =Choices([@'MapDiv(Factors)'].Division)
+                        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                        SearchFields: =["Value"]
+                        SearchItems: =Choices('MapDiv(Factors)'.Division,DataCardValue24.SearchText)
+                        SelectMultiple: =false
+                        Tooltip: =Parent.DisplayName
+                        Width: =Parent.Width - 60
+                        X: =30
+                        Y: =DataCardKey24.Y + DataCardKey24.Height + 5
+                        ZIndex: =2
+
+                    ErrorMessage24 As label:
+                        AutoHeight: =true
+                        Height: =10
+                        Live: =Live.Assertive
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =Parent.Error
+                        Visible: =Parent.DisplayMode=DisplayMode.Edit
+                        Width: =Parent.Width - 60
+                        X: =30
+                        Y: =DataCardValue24.Y + DataCardValue24.Height
+                        ZIndex: =3
+
+                    StarVisible24 As label:
+                        Align: =Align.Center
+                        Height: =DataCardKey24.Height
+                        Text: ="*"
+                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =30
+                        Wrap: =false
+                        Y: =DataCardKey24.Y
+                        ZIndex: =4
+
+            Icon14 As icon.Add:
+                Height: =44
+                Icon: =Icon.Add
+                OnSelect: |-
+                    =SubmitForm(Form3);NewForm(Form3);UpdateContext({Mapdivpopupfact:false})
+                Width: =56
+                X: =333
+                Y: =225
+                ZIndex: =3
+
+            Label18 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Size: =16
+                Text: ="Division"
+                X: =21
+                Y: =338
+                ZIndex: =4
+
+            Label18_1 As label:
+                FontWeight: =FontWeight.Bold
+                Size: =16
+                Text: ="Action"
+                X: =304
+                Y: =338
+                ZIndex: =5
+
+            Gallery8 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                Height: =244
+                Items: ='MapDiv(Factors)'
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateSize: =108
+                Width: =962
+                Y: =401
+                ZIndex: =6
+
+                Label19 As label:
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.Division.Value
+                    Width: =200
+                    X: =15
+                    Y: =21
+                    ZIndex: =1
+
+                Button7 As button:
+                    OnSelect: =Select(Parent)
+                    Text: ="Delete"
+                    Width: =98
+                    X: =316
+                    Y: =21
+                    ZIndex: =2
 

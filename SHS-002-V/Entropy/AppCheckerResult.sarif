@@ -4934,36 +4934,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Factors.Mapdivpopupfact"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Factors.Mapdivpopupfact",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Mapdivpopupfact",
-                "module": "Factors",
-                "type": "Factors"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Factors.CanVasContainer_4.Y"
                 }
               ],
