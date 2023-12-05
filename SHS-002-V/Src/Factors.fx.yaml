@@ -818,6 +818,8 @@ Factors As screen:
                     ZIndex: =4
 
                 Button12 As button:
+                    OnSelect: |-
+                        =UpdateContext({Deletemapdifactpopup:false})
                     Text: ="No"
                     X: =312
                     Y: =200
