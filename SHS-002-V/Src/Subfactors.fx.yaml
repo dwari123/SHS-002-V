@@ -843,7 +843,7 @@ Subfactors As screen:
 
         Icon23 As icon.Add:
             Icon: =Icon.Add
-            OnSelect: =SubmitForm(Form4);NewForm(Form4);UpdateContext({
+            OnSelect: =SubmitForm(Form4);NewForm(Form4);
             X: =390
             Y: =205
             ZIndex: =3
