@@ -812,7 +812,7 @@ Factors As screen:
 
                 Button10 As button:
                     OnSelect: |-
-                        =Remove('MapDiv(Factors)',Gallery8.Selected);UpdateContext({Deletemapdifactpopup:false})
+                        =Remove('MapDiv(Factors)',Gallery8.Selected);Notify("Item deleted Successfully",NotificationType.Success); UpdateContext({Deletemapdifactpopup:false});
                     Text: ="Yes"
                     X: =33
                     Y: =200
