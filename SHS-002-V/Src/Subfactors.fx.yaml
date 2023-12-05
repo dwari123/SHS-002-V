@@ -758,8 +758,9 @@ Subfactors As screen:
         ZIndex: =22
 
         Label27 As label:
-            Text: ="Manage factor-"
-            X: =24
+            Text: ="Manage factor-Division Mapping"
+            Width: =282
+            X: =39
             Y: =27
             ZIndex: =1
 
