@@ -1484,19 +1484,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.'Study Code_DataCard2'.DataCardValue113.AccessibleLabel"
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.'Study Code_DataCard1'.DataCardValue106.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.'Study Code_DataCard2'.DataCardValue113.AccessibleLabel",
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.'Study Code_DataCard1'.DataCardValue106.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Study",
-                "type": "Study.Container_edit_options_1.Form_edit_question_2.'Study Code_DataCard2'.DataCardValue113"
+                "type": "Study.CanVasContainer_13.Container_options_1.Form_options_1.'Study Code_DataCard1'.DataCardValue106"
               }
             }
           ],
@@ -1514,319 +1514,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.'Study Name_DataCard2'.DataCardValue114.AccessibleLabel"
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Gallery_study.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.'Study Name_DataCard2'.DataCardValue114.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_edit_options_1.Form_edit_question_2.'Study Name_DataCard2'.DataCardValue114"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.Year_DataCard2.DataCardValue115.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.Year_DataCard2.DataCardValue115.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_edit_options_1.Form_edit_question_2.Year_DataCard2.DataCardValue115"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.Quarter_DataCard2.DataCardValue116.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.Quarter_DataCard2.DataCardValue116.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_edit_options_1.Form_edit_question_2.Quarter_DataCard2.DataCardValue116"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.Direction_DataCard2.DataCardValue117.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Container_edit_options_1.Form_edit_question_2.Direction_DataCard2.DataCardValue117.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_edit_options_1.Form_edit_question_2.Direction_DataCard2.DataCardValue117"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.'Study Code_DataCard1'.DataCardValue106.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.'Study Code_DataCard1'.DataCardValue106.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_options_1.Form_options_1.'Study Code_DataCard1'.DataCardValue106"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.'Study Name_DataCard1'.DataCardValue107.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.'Study Name_DataCard1'.DataCardValue107.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_options_1.Form_options_1.'Study Name_DataCard1'.DataCardValue107"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.Year_DataCard1.DataCardValue108.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.Year_DataCard1.DataCardValue108.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_options_1.Form_options_1.Year_DataCard1.DataCardValue108"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.Quarter_DataCard1.DataCardValue109.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.Quarter_DataCard1.DataCardValue109.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_options_1.Form_options_1.Quarter_DataCard1.DataCardValue109"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.Direction_DataCard1.DataCardValue110.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Container_options_1.Form_options_1.Direction_DataCard1.DataCardValue110.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Container_options_1.Form_options_1.Direction_DataCard1.DataCardValue110"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Arrow1_19.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Arrow1_19.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Study",
-                "type": "Study.Arrow1_19"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Study.Arrow1_19.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Study.Arrow1_19.TabIndex",
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Gallery_study.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Study",
-                "type": "Study.Arrow1_19"
+                "type": "Study.CanVasContainer_13.Gallery_study"
               }
             }
           ],
@@ -1844,19 +1544,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Study.Gallery_study.AccessibleLabel"
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Gallery_study.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Study.Gallery_study.AccessibleLabel",
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Gallery_study.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Study",
-                "type": "Study.Gallery_study"
+                "type": "Study.CanVasContainer_13.Gallery_study"
               }
             }
           ],
@@ -1874,19 +1574,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Study.Gallery_study.TabIndex"
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Arrow1_19.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Study.Gallery_study.TabIndex",
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Arrow1_19.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Study",
-                "type": "Study.Gallery_study"
+                "type": "Study.CanVasContainer_13.Arrow1_19"
               }
             }
           ],
@@ -1898,6 +1598,306 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Arrow1_19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Arrow1_19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Arrow1_19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.'Study Code_DataCard2'.DataCardValue113.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.'Study Code_DataCard2'.DataCardValue113.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.'Study Code_DataCard2'.DataCardValue113"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Direction_DataCard1.DataCardValue110.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Direction_DataCard1.DataCardValue110.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Direction_DataCard1.DataCardValue110"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Quarter_DataCard1.DataCardValue109.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Quarter_DataCard1.DataCardValue109.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Quarter_DataCard1.DataCardValue109"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Year_DataCard1.DataCardValue108.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Year_DataCard1.DataCardValue108.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_options_1.Form_options_1.Year_DataCard1.DataCardValue108"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.'Study Name_DataCard1'.DataCardValue107.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_options_1.Form_options_1.'Study Name_DataCard1'.DataCardValue107.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_options_1.Form_options_1.'Study Name_DataCard1'.DataCardValue107"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Direction_DataCard2.DataCardValue117.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Direction_DataCard2.DataCardValue117.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Direction_DataCard2.DataCardValue117"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Quarter_DataCard2.DataCardValue116.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Quarter_DataCard2.DataCardValue116.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Quarter_DataCard2.DataCardValue116"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Year_DataCard2.DataCardValue115.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Year_DataCard2.DataCardValue115.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.Year_DataCard2.DataCardValue115"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.'Study Name_DataCard2'.DataCardValue114.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.'Study Name_DataCard2'.DataCardValue114.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13.Container_edit_options_1.Form_edit_question_2.'Study Name_DataCard2'.DataCardValue114"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -4484,19 +4484,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Questions_DataCard3.DataCardValue101.AccessibleLabel"
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_options.Form_options.Questions_DataCard1.DataCardValue85.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Questions_DataCard3.DataCardValue101.AccessibleLabel",
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_options.Form_options.Questions_DataCard1.DataCardValue85.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Options",
-                "type": "Options.Container_edit_options.Form_edit_question_1.Questions_DataCard3.DataCardValue101"
+                "type": "Options.CanVasContainer_12.Container_options.Form_options.Questions_DataCard1.DataCardValue85"
               }
             }
           ],
@@ -4514,259 +4514,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Code_DataCard7.DataCardValue102.AccessibleLabel"
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Gallery_options.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Code_DataCard7.DataCardValue102.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Options",
-                "type": "Options.Container_edit_options.Form_edit_question_1.Code_DataCard7.DataCardValue102"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Options_DataCard3.DataCardValue103.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Options_DataCard3.DataCardValue103.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Options",
-                "type": "Options.Container_edit_options.Form_edit_question_1.Options_DataCard3.DataCardValue103"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Action_DataCard11.DataCardValue104.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Action_DataCard11.DataCardValue104.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Options",
-                "type": "Options.Container_edit_options.Form_edit_question_1.Action_DataCard11.DataCardValue104"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Attachments_DataCard11.DataCardValue105.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Options.Container_edit_options.Form_edit_question_1.Attachments_DataCard11.DataCardValue105.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Options",
-                "type": "Options.Container_edit_options.Form_edit_question_1.Attachments_DataCard11.DataCardValue105"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Options.Container_options.Form_options.Questions_DataCard1.DataCardValue85.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Options.Container_options.Form_options.Questions_DataCard1.DataCardValue85.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Options",
-                "type": "Options.Container_options.Form_options.Questions_DataCard1.DataCardValue85"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Options.Container_options.Form_options.Code_DataCard5.DataCardValue86.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Options.Container_options.Form_options.Code_DataCard5.DataCardValue86.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Options",
-                "type": "Options.Container_options.Form_options.Code_DataCard5.DataCardValue86"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Options.Container_options.Form_options.Options_DataCard1.DataCardValue87.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Options.Container_options.Form_options.Options_DataCard1.DataCardValue87.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Options",
-                "type": "Options.Container_options.Form_options.Options_DataCard1.DataCardValue87"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Options.Arrow1_10.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Options.Arrow1_10.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Options",
-                "type": "Options.Arrow1_10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Options.Arrow1_10.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Options.Arrow1_10.TabIndex",
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Gallery_options.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Options",
-                "type": "Options.Arrow1_10"
+                "type": "Options.CanVasContainer_12.Gallery_options"
               }
             }
           ],
@@ -4784,19 +4544,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Options.Gallery_options.AccessibleLabel"
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Gallery_options.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Options.Gallery_options.AccessibleLabel",
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Gallery_options.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Options",
-                "type": "Options.Gallery_options"
+                "type": "Options.CanVasContainer_12.Gallery_options"
               }
             }
           ],
@@ -4814,19 +4574,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Options.Gallery_options.TabIndex"
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Arrow1_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Options.Gallery_options.TabIndex",
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Arrow1_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Options",
-                "type": "Options.Gallery_options"
+                "type": "Options.CanVasContainer_12.Arrow1_10"
               }
             }
           ],
@@ -4838,6 +4598,246 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Arrow1_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Arrow1_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12.Arrow1_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Questions_DataCard3.DataCardValue101.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Questions_DataCard3.DataCardValue101.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Questions_DataCard3.DataCardValue101"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_options.Form_options.Options_DataCard1.DataCardValue87.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_options.Form_options.Options_DataCard1.DataCardValue87.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12.Container_options.Form_options.Options_DataCard1.DataCardValue87"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_options.Form_options.Code_DataCard5.DataCardValue86.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_options.Form_options.Code_DataCard5.DataCardValue86.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12.Container_options.Form_options.Code_DataCard5.DataCardValue86"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Attachments_DataCard11.DataCardValue105.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Attachments_DataCard11.DataCardValue105.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Attachments_DataCard11.DataCardValue105"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Action_DataCard11.DataCardValue104.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Action_DataCard11.DataCardValue104.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Action_DataCard11.DataCardValue104"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Options_DataCard3.DataCardValue103.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Options_DataCard3.DataCardValue103.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Options_DataCard3.DataCardValue103"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Code_DataCard7.DataCardValue102.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Code_DataCard7.DataCardValue102.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12.Container_edit_options.Form_edit_question_1.Code_DataCard7.DataCardValue102"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -6807,6 +6807,186 @@
                 "member": "Height",
                 "module": "Questions",
                 "type": "Questions.CanVasContainer_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Y",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Width",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.CanVasContainer_12.Height",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "Options",
+                "type": "Options.CanVasContainer_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Y",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Width",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.CanVasContainer_13.Height",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "Study",
+                "type": "Study.CanVasContainer_13"
               }
             }
           ],
