@@ -898,8 +898,9 @@ Subfactors As screen:
                 ZIndex: =1
 
             Button8 As button:
-                OnSelect: =Select(Parent)
-                Text: ="Button"
+                OnSelect: |-
+                    =UpdateContext({deletemapdivsubfactpopup:true})
+                Text: ="Delete"
                 Width: =130
                 X: =325
                 Y: =21

@@ -6224,6 +6224,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Subfactors.deletemapdivsubfactpopup"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Subfactors.deletemapdivsubfactpopup",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "deletemapdivsubfactpopup",
+                "module": "Subfactors",
+                "type": "Subfactors"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Subfactors.CanVasContainer_10.Y"
                 }
               ],
