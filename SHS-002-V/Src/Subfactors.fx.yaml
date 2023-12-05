@@ -734,3 +734,36 @@ Subfactors As screen:
                 Y: =33
                 ZIndex: =5
 
+            Icon22 As icon.ArrowRight:
+                Height: =67
+                Icon: =Icon.ArrowRight
+                OnSelect: =Select(Parent)
+                Width: =50
+                X: =916
+                Y: =9
+                ZIndex: =6
+
+    Container15 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(214, 221, 224, 0.49)
+        Height: =768
+        Width: =1366
+        ZIndex: =21
+
+    Container16 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(166, 215, 153, 1)
+        Height: =594
+        Width: =1030
+        X: =233
+        Y: =174
+        ZIndex: =22
+
+        Label27 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =34
+            Size: =20
+            Text: ="Manage factor-Division Mapping"
+            Width: =458
+            X: =39
+            Y: =27
+            ZIndex: =1
+

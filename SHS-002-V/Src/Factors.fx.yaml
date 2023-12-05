@@ -9,7 +9,20 @@ Factors As screen:
         Width: =App.Width-Component1_1.VarMenuWidth
         X: =Component1_12.VarMenuWidth
         Y: =Component1_1.ComHeaderHeight
-        ZIndex: =10
+        ZIndex: =3
+
+        Btn_Add_factor As button:
+            Fill: =RGBA(6, 89, 6, 1)
+            HoverFill: =Self.Fill
+            OnSelect: |-
+                =UpdateContext({ShowPopup : true})
+            PaddingLeft: =45
+            PressedColor: =Color.White
+            PressedFill: =Self.Fill
+            Text: ="Add"
+            X: =932
+            Y: =90
+            ZIndex: =1
 
         Group_showpopup_factor As group:
             Height: =5
@@ -23,7 +36,7 @@ Factors As screen:
                 Height: =645
                 Visible: =ShowPopup
                 Width: =1092.8
-                ZIndex: =1
+                ZIndex: =9
 
             Container_sg_PU_form_2 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(233, 79, 76, 1)
@@ -31,7 +44,7 @@ Factors As screen:
                 Visible: =ShowPopup
                 Width: =1092.8
                 Y: =57
-                ZIndex: =9
+                ZIndex: =13
 
                 Label30_2 As label:
                     Height: =58
@@ -203,6 +216,86 @@ Factors As screen:
                     Y: =507
                     ZIndex: =4
 
+        "'Add doc_Button_7' As 'Add doc_Button'":
+            X: =727
+            Y: =85
+            ZIndex: =2
+
+        Gallery_factor As gallery.galleryVertical:
+            DelayItemLoading: =true
+            Height: =440
+            Items: =Factor
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =104
+            Width: =1092
+            Y: =192
+            ZIndex: =3
+
+            Label_segmentcode_2 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'Factor Code'
+                X: =26
+                Y: =33
+                ZIndex: =1
+
+            Label_segmentname_2 As label:
+                Height: =33
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.'Factor Name'
+                Width: =196
+                X: =336
+                Y: =33
+                ZIndex: =2
+
+            btn_edit_sgm_1 As button:
+                OnSelect: |-
+                    =UpdateContext({ShowPopup_edit:true})
+                Text: ="Edit"
+                Width: =100
+                X: =599
+                Y: =33
+                ZIndex: =3
+
+            btn_del_sgm_1 As button:
+                OnSelect: |-
+                    =UpdateContext({ShowPopup_del:true});
+                Text: ="Delete"
+                Width: =94
+                X: =721
+                Y: =33
+                ZIndex: =4
+
+            Label32_1 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Action
+                X: =427
+                Y: =33
+                ZIndex: =5
+
+            Icon20 As icon.ArrowRight:
+                Height: =45
+                Icon: =Icon.ArrowRight
+                OnSelect: |-
+                    =UpdateContext({Mapdivpopupfact:true})
+                Width: =44
+                X: =895
+                Y: =21
+                ZIndex: =6
+
+        Label12_3 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =17
+            Text: ="Factors"
+            X: =29.799999999999955
+            Y: =85
+            ZIndex: =4
+
+        Search_7 As Search:
+            X: =446
+            Y: =85
+            ZIndex: =5
+
         Group_header_factor As group:
             Height: =5
             Width: =5
@@ -215,26 +308,26 @@ Factors As screen:
                 Width: =180
                 X: =681
                 Y: =152
-                ZIndex: =3
+                ZIndex: =6
 
             factorname As label:
                 Text: ="Factor Name"
                 Width: =180
                 X: =336
                 Y: =152
-                ZIndex: =4
+                ZIndex: =7
 
             Label33 As label:
                 Text: ="Map Division"
                 X: =887
                 Y: =152
-                ZIndex: =5
+                ZIndex: =8
 
             factorcode As label:
                 Text: ="Factor Code"
                 X: =29
                 Y: =152
-                ZIndex: =6
+                ZIndex: =10
 
         Group_Edit_Factor As group:
             Height: =5
@@ -248,7 +341,7 @@ Factors As screen:
                 Height: =645
                 Visible: =ShowPopup_edit
                 Width: =1092.8
-                ZIndex: =7
+                ZIndex: =14
 
             Container_edit_SG_PU_2 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(40, 134, 222, 1)
@@ -256,7 +349,7 @@ Factors As screen:
                 Visible: =ShowPopup_edit
                 Width: =1092.8
                 Y: =70
-                ZIndex: =10
+                ZIndex: =15
 
                 btn_save_edit_2 As button:
                     OnSelect: |-
@@ -427,15 +520,6 @@ Factors As screen:
                             Y: =DataCardKey51.Y
                             ZIndex: =4
 
-        Arrow1_7 As arrow.backArrow:
-            Fill: =RGBA(0, 18, 107, 1)
-            Height: =34
-            OnSelect: =Navigate(Administration)
-            Width: =32
-            X: =29.799999999999955
-            Y: =24
-            ZIndex: =14
-
         Group_delete_factor As group:
             Height: =5
             Width: =5
@@ -448,7 +532,7 @@ Factors As screen:
                 Height: =645
                 Visible: =ShowPopup_del
                 Width: =1092.8
-                ZIndex: =12
+                ZIndex: =11
 
             container_del_confirmation_factor As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(83, 144, 164, 1)
@@ -457,7 +541,7 @@ Factors As screen:
                 Width: =695
                 X: =339
                 Y: =274
-                ZIndex: =13
+                ZIndex: =12
 
                 Label34_2 As label:
                     Text: ="Confirmation"
@@ -491,17 +575,13 @@ Factors As screen:
                     Y: =225
                     ZIndex: =4
 
-        Label12_3 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =17
-            Text: ="Factors"
+        Arrow1_7 As arrow.backArrow:
+            Fill: =RGBA(0, 18, 107, 1)
+            Height: =34
+            OnSelect: =Navigate(Administration)
+            Width: =32
             X: =29.799999999999955
-            Y: =85
-            ZIndex: =15
-
-        Search_7 As Search:
-            X: =446
-            Y: =85
+            Y: =24
             ZIndex: =16
 
         Icon5_6 As icon.HorizontalLine:
@@ -521,82 +601,230 @@ Factors As screen:
             Y: =150
             ZIndex: =17
 
-        "'Add doc_Button_7' As 'Add doc_Button'":
-            X: =727
-            Y: =85
-            ZIndex: =18
+    MapdivFactPopup As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =13
 
-        Btn_Add_factor As button:
-            Fill: =RGBA(6, 89, 6, 1)
-            HoverFill: =Self.Fill
-            OnSelect: |-
-                =UpdateContext({ShowPopup : true})
-            PaddingLeft: =45
-            PressedColor: =Color.White
-            PressedFill: =Self.Fill
-            Text: ="Add"
-            X: =932
-            Y: =90
-            ZIndex: =19
+        Container2 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(122, 138, 143, 0.45)
+            Height: =768
+            Visible: =Mapdivpopupfact
+            Width: =1366
+            ZIndex: =2
 
-        Gallery_factor As gallery.galleryVertical:
-            DelayItemLoading: =true
-            Height: =440
-            Items: =Factor
-            Layout: =Layout.Vertical
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =104
-            Width: =1092
-            Y: =192
-            ZIndex: =20
+        Container13 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(253, 207, 180, 1)
+            Height: =645
+            Visible: =Mapdivpopupfact
+            Width: =962
+            X: =189
+            Y: =123
+            ZIndex: =4
 
-            Label_segmentcode_2 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'Factor Code'
-                X: =26
-                Y: =33
+            Label16 As label:
+                FontWeight: =FontWeight.Bold
+                Size: =20
+                Text: ="Manage Factor-Diviison Mapping"
+                Width: =452
+                X: =21
+                Y: =15
                 ZIndex: =1
 
-            Label_segmentname_2 As label:
-                Height: =33
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'Factor Name'
-                Width: =196
-                X: =336
-                Y: =33
+            Form3 As form:
+                DataSource: ='MapDiv(Factors)'
+                DefaultMode: =FormMode.New
+                Height: =104
+                Width: =866
+                X: =34
+                Y: =186
                 ZIndex: =2
 
-            btn_edit_sgm_1 As button:
+                Division_DataCard1 As typedDataCard.comboBoxEditCard:
+                    BorderStyle: =BorderStyle.Solid
+                    DataField: ="Division"
+                    Default: =ThisItem.Division
+                    DisplayMode: =Parent.DisplayMode
+                    DisplayName: =DataSourceInfo([@'MapDiv(Factors)'],DataSourceInfo.DisplayName,"Division")
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =50
+                    Required: =true
+                    Update: =DataCardValue24.Selected
+                    Width: =288
+                    X: =0
+                    Y: =0
+                    ZIndex: =3
+
+                    DataCardKey24 As label:
+                        AutoHeight: =true
+                        Height: =34
+                        Text: =Parent.DisplayName
+                        Width: =Parent.Width - 60
+                        Wrap: =false
+                        X: =30
+                        Y: =10
+                        ZIndex: =1
+
+                    DataCardValue24 As combobox:
+                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                        DefaultSelectedItems: =Parent.Default
+                        DisplayFields: =["Value"]
+                        DisplayMode: =Parent.DisplayMode
+                        Items: =Choices([@'MapDiv(Factors)'].Division)
+                        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                        SearchFields: =["Value"]
+                        SearchItems: =Choices('MapDiv(Factors)'.Division,DataCardValue24.SearchText)
+                        SelectMultiple: =false
+                        Tooltip: =Parent.DisplayName
+                        Width: =Parent.Width - 60
+                        X: =30
+                        Y: =DataCardKey24.Y + DataCardKey24.Height + 5
+                        ZIndex: =2
+
+                    ErrorMessage24 As label:
+                        AutoHeight: =true
+                        Height: =10
+                        Live: =Live.Assertive
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =Parent.Error
+                        Visible: =Parent.DisplayMode=DisplayMode.Edit
+                        Width: =Parent.Width - 60
+                        X: =30
+                        Y: =DataCardValue24.Y + DataCardValue24.Height
+                        ZIndex: =3
+
+                    StarVisible24 As label:
+                        Align: =Align.Center
+                        Height: =DataCardKey24.Height
+                        Text: ="*"
+                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =30
+                        Wrap: =false
+                        Y: =DataCardKey24.Y
+                        ZIndex: =4
+
+            Icon14 As icon.Add:
+                Height: =44
+                Icon: =Icon.Add
                 OnSelect: |-
-                    =UpdateContext({ShowPopup_edit:true})
-                Text: ="Edit"
-                Width: =100
-                X: =599
-                Y: =33
+                    =SubmitForm(Form3);NewForm(Form3);Notify("Item added Successfully",NotificationType.Success); UpdateContext({Mapdivpopupfact:false})
+                Width: =56
+                X: =333
+                Y: =225
                 ZIndex: =3
 
-            btn_del_sgm_1 As button:
-                OnSelect: |-
-                    =UpdateContext({ShowPopup_del:true});
-                Text: ="Delete"
-                Width: =94
-                X: =721
-                Y: =33
+            Label18 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Size: =16
+                Text: ="Division"
+                X: =21
+                Y: =338
                 ZIndex: =4
 
-            Label32_1 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.Action
-                X: =427
-                Y: =33
+            Label18_1 As label:
+                FontWeight: =FontWeight.Bold
+                Size: =16
+                Text: ="Action"
+                X: =304
+                Y: =338
                 ZIndex: =5
 
-            Icon20 As icon.ArrowRight:
-                Height: =45
-                Icon: =Icon.ArrowRight
-                OnSelect: =Select(Parent)
-                Width: =44
-                X: =895
-                Y: =21
+            Gallery8 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                Height: =244
+                Items: ='MapDiv(Factors)'
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateSize: =108
+                Width: =962
+                Y: =401
                 ZIndex: =6
+
+                Label19 As label:
+                    OnSelect: =Select(Parent)
+                    Text: =ThisItem.Division.Value
+                    Width: =200
+                    X: =15
+                    Y: =21
+                    ZIndex: =1
+
+                Button7 As button:
+                    OnSelect: |-
+                        =UpdateContext({Deletemapdifactpopup:true})
+                    Text: ="Delete"
+                    Width: =98
+                    X: =316
+                    Y: =21
+                    ZIndex: =2
+
+            Container14 As groupContainer.manualLayoutContainer:
+                Fill: =RGBA(166, 215, 153, 1)
+                Height: =264
+                Visible: =Deletemapdifactpopup
+                Width: =588
+                X: =115
+                Y: =290
+                ZIndex: =8
+
+                Label20 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Bold
+                    Height: =46
+                    Size: =30
+                    Text: ="Confirmation"
+                    Width: =368
+                    X: =81
+                    Y: =27
+                    ZIndex: =1
+
+                Icon17 As icon.HorizontalLine:
+                    BorderThickness: =1
+                    Height: =0
+                    Icon: =Icon.HorizontalLine
+                    Width: =588
+                    Y: =73
+                    ZIndex: =2
+
+                Label26 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Bold
+                    Height: =62
+                    Size: =20
+                    Text: ="Are you sure you want to delete?"
+                    Width: =378
+                    X: =33
+                    Y: =99
+                    ZIndex: =3
+
+                Button10 As button:
+                    OnSelect: |-
+                        =Remove('MapDiv(Factors)',Gallery8.Selected);Notify("Item deleted Successfully",NotificationType.Success); UpdateContext({Deletemapdifactpopup:false});
+                    Text: ="Yes"
+                    X: =33
+                    Y: =200
+                    ZIndex: =4
+
+                Button12 As button:
+                    OnSelect: |-
+                        =UpdateContext({Deletemapdifactpopup:false})
+                    Text: ="No"
+                    X: =312
+                    Y: =200
+                    ZIndex: =5
+
+            Icon21 As icon.Cancel:
+                Height: =40
+                Icon: =Icon.Cancel
+                OnSelect: |-
+                    =UpdateContext({Mapdivpopupfact:false})
+                Width: =30
+                X: =848
+                Y: =15
+                ZIndex: =9
 
