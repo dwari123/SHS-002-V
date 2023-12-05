@@ -594,7 +594,8 @@ Factors As screen:
             Icon20 As icon.ArrowRight:
                 Height: =45
                 Icon: =Icon.ArrowRight
-                OnSelect: =Select(Parent)
+                OnSelect: |-
+                    =UpdateContext({Mapdivpopupfact:true})
                 Width: =44
                 X: =895
                 Y: =21
