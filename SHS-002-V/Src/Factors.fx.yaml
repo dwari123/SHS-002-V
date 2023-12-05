@@ -698,7 +698,9 @@ Factors As screen:
                     ZIndex: =4
 
         Icon14 As icon.Add:
+            Height: =44
             Icon: =Icon.Add
+            Width: =56
             X: =333
             Y: =225
             ZIndex: =3
