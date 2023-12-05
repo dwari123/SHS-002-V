@@ -871,13 +871,20 @@ Subfactors As screen:
         Gallery9 As gallery.galleryVertical:
             DelayItemLoading: =true
             Height: =191
-            Items: =CustomGallerySample
+            Items: ='MapDiv(subfactors)'
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+            TemplateSize: =64
             Width: =1030
             Y: =402
             ZIndex: =7
+
+            Label29 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Title
+                X: =12
+                Y: =9
+                ZIndex: =1
 
         Icon24_1 As icon.HorizontalLine:
             BorderThickness: =1

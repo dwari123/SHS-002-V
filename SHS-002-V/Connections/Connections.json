@@ -28,6 +28,9 @@
           "MapDiv(Factors)": {
             "tableName": "7c9532c9-2b3f-403d-8751-a103f5d56d8a"
           },
+          "MapDiv(subfactors)": {
+            "tableName": "78bd54fc-50a9-4feb-be61-c1cbf23a2256"
+          },
           "MapDiv(subfactors)_1": {
             "tableName": "78bd54fc-50a9-4feb-be61-c1cbf23a2256"
           },
@@ -71,7 +74,8 @@
       "Study(Administration)",
       "Login Details",
       "MapDiv(Factors)",
-      "MapDiv(subfactors)_1"
+      "MapDiv(subfactors)_1",
+      "MapDiv(subfactors)"
     ],
     "dependencies": {},
     "dependents": [],
