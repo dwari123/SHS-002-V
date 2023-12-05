@@ -626,7 +626,7 @@ Factors As screen:
 
         Form3 As form:
             DataSource: ='MapDiv(Factors)'
-            Height: =168
+            Height: =104
             Width: =866
             X: =34
             Y: =186
@@ -709,6 +709,7 @@ Factors As screen:
         Label18 As label:
             Align: =Align.Center
             FontWeight: =FontWeight.Bold
+            Size: =16
             Text: ="Division"
             X: =21
             Y: =338
