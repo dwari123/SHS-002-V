@@ -771,7 +771,7 @@ Factors As screen:
                 ZIndex: =7
 
             Container14 As groupContainer.manualLayoutContainer:
-                Fill: =RGBA(240, 98, 15, 1)
+                Fill: =RGBA(166, 215, 153, 1)
                 Height: =264
                 Width: =588
                 X: =115
