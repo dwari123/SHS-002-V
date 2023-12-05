@@ -854,8 +854,16 @@ Subfactors As screen:
             ZIndex: =4
 
         Label28_1 As label:
+            Size: =20
             Text: ="Action"
             X: =347
             Y: =318
             ZIndex: =5
+
+        Icon24 As icon.HorizontalLine:
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =1021
+            Y: =286
+            ZIndex: =6
 
