@@ -879,3 +879,11 @@ Subfactors As screen:
             Y: =402
             ZIndex: =7
 
+        Icon24_1 As icon.HorizontalLine:
+            BorderThickness: =1
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =1021
+            Y: =385
+            ZIndex: =8
+
