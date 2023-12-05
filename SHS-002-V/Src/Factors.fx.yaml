@@ -591,3 +591,12 @@ Factors As screen:
                 Y: =33
                 ZIndex: =5
 
+            Icon20 As icon.ArrowRight:
+                Height: =45
+                Icon: =Icon.ArrowRight
+                OnSelect: =Select(Parent)
+                Width: =44
+                X: =895
+                Y: =21
+                ZIndex: =6
+
