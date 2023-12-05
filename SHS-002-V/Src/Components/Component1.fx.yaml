@@ -278,13 +278,13 @@ Component1 As CanvasComponent:
 
     Gallery3 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =210
-        Items: =CustomGallerySample
+        Height: =195
+        Items: =Component1.Adminicon_menu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
-        Width: =308
-        X: =1057
-        Y: =123
+        TemplateSize: =98
+        Width: =379
+        X: =987
+        Y: =135
         ZIndex: =5
 
