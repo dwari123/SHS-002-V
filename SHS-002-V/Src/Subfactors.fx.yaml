@@ -754,12 +754,14 @@ Subfactors As screen:
         Container15 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(214, 221, 224, 0.49)
             Height: =768
+            Visible: =Subfactmapdivpopup
             Width: =1366
             ZIndex: =21
 
         Container16 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(166, 215, 153, 1)
             Height: =594
+            Visible: =Subfactmapdivpopup
             Width: =1030
             X: =233
             Y: =174

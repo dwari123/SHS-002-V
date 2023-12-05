@@ -6254,36 +6254,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Subfactors.Subfactmapdivpopup"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Subfactors.Subfactmapdivpopup",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Subfactmapdivpopup",
-                "module": "Subfactors",
-                "type": "Subfactors"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Subfactors.deletemapdivsubfactpopup"
                 }
               ],
