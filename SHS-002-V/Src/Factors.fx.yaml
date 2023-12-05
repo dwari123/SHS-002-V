@@ -626,6 +626,7 @@ Factors As screen:
 
         Form3 As form:
             DataSource: ='MapDiv(Factors)'
+            DefaultMode: =FormMode.New
             Height: =104
             Width: =866
             X: =34
