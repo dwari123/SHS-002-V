@@ -1376,7 +1376,7 @@
       "MetaDataIDKey": "",
       "Name": "btn_del_sgm_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1662,7 +1662,7 @@
       "MetaDataIDKey": "",
       "Name": "btn_edit_sgm_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9675,7 +9675,7 @@
       "MetaDataIDKey": "",
       "Name": "Icon20",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10138,7 +10138,7 @@
       "MetaDataIDKey": "",
       "Name": "Label_segmentcode_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10400,7 +10400,7 @@
       "MetaDataIDKey": "",
       "Name": "Label_segmentname_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11202,7 +11202,7 @@
       "MetaDataIDKey": "",
       "Name": "Label32_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
