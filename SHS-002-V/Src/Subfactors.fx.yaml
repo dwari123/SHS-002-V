@@ -743,3 +743,17 @@ Subfactors As screen:
                 Y: =9
                 ZIndex: =6
 
+    Container15 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(214, 221, 224, 0.49)
+        Height: =768
+        Width: =1366
+        ZIndex: =21
+
+    Container16 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(166, 215, 153, 1)
+        Height: =594
+        Width: =1030
+        X: =233
+        Y: =174
+        ZIndex: =22
+
