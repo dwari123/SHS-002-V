@@ -737,6 +737,7 @@ Factors As screen:
             Label19 As label:
                 OnSelect: =Select(Parent)
                 Text: =ThisItem.Division.Value
+                Width: =200
                 X: =15
                 Y: =21
                 ZIndex: =1
