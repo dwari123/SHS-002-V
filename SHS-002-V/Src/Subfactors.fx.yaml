@@ -942,3 +942,10 @@ Subfactors As screen:
                 Y: =66
                 ZIndex: =2
 
+            Label40 As label:
+                Height: =100
+                Text: ="Text"
+                Width: =628
+                Y: =101
+                ZIndex: =3
+
