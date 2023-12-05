@@ -847,6 +847,7 @@ Subfactors As screen:
             ZIndex: =3
 
         Label28 As label:
+            Size: =20
             Text: ="Division"
             X: =27
             Y: =318
