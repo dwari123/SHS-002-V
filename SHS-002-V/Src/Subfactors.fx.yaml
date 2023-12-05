@@ -925,6 +925,7 @@ Subfactors As screen:
             ZIndex: =11
 
             Label39 As label:
+                FontWeight: =FontWeight.Bold
                 Height: =45
                 Size: =20
                 Text: ="Confirmation"
