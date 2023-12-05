@@ -821,6 +821,8 @@ Factors As screen:
             Icon21 As icon.Cancel:
                 Height: =40
                 Icon: =Icon.Cancel
+                OnSelect: |-
+                    =UpdateContext({Mapdivpopupfact:false})
                 Width: =30
                 X: =848
                 Y: =15
