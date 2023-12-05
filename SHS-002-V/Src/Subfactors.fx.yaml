@@ -768,10 +768,10 @@ Subfactors As screen:
             ZIndex: =1
 
         Form4 As form:
-            DataSource: ='MapDiv(subfactors)'
-            Height: =126
-            X: =40
-            Y: =218
+            DataSource: ='MapDiv(subfactors)_1'
+            Height: =132
+            X: =27
+            Y: =171
             ZIndex: =2
 
             Division_DataCard2 As typedDataCard.comboBoxEditCard:
@@ -779,7 +779,7 @@ Subfactors As screen:
                 DataField: ="Division"
                 Default: =ThisItem.Division
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'MapDiv(subfactors)'],DataSourceInfo.DisplayName,"Division")
+                DisplayName: =DataSourceInfo([@'MapDiv(subfactors)_1'],DataSourceInfo.DisplayName,"Division")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
@@ -804,10 +804,10 @@ Subfactors As screen:
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
-                    Items: =Choices([@'MapDiv(subfactors)'].Division)
+                    Items: =Choices([@'MapDiv(subfactors)_1'].Division)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('MapDiv(subfactors)'.Division,DataCardValue25.SearchText)
+                    SearchItems: =Choices('MapDiv(subfactors)_1'.Division,DataCardValue25.SearchText)
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
