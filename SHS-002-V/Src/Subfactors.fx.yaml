@@ -846,3 +846,9 @@ Subfactors As screen:
             Y: =205
             ZIndex: =3
 
+        Label28 As label:
+            Text: ="Text"
+            X: =27
+            Y: =318
+            ZIndex: =4
+
