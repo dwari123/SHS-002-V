@@ -4934,6 +4934,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Factors.Deletemapdifactpopup"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Factors.Deletemapdifactpopup",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Deletemapdifactpopup",
+                "module": "Factors",
+                "type": "Factors"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Factors.CanVasContainer_4.Y"
                 }
               ],

@@ -755,7 +755,8 @@ Factors As screen:
                     ZIndex: =1
 
                 Button7 As button:
-                    OnSelect: =Select(Parent)
+                    OnSelect: |-
+                        =UpdateContext({Deletemapdifactpopup:true})
                     Text: ="Delete"
                     Width: =98
                     X: =316
@@ -815,7 +816,7 @@ Factors As screen:
                     ZIndex: =4
 
                 Button12 As button:
-                    Text: ="Button"
+                    Text: ="No"
                     X: =312
                     Y: =200
                     ZIndex: =5
