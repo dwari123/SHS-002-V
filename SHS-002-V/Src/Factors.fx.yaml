@@ -600,3 +600,9 @@ Factors As screen:
                 Y: =21
                 ZIndex: =6
 
+    Container2 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(122, 138, 143, 0.45)
+        Height: =768
+        Width: =1366
+        ZIndex: =11
+
