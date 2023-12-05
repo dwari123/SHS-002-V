@@ -737,7 +737,8 @@ Subfactors As screen:
             Icon22 As icon.ArrowRight:
                 Height: =67
                 Icon: =Icon.ArrowRight
-                OnSelect: =Select(Parent)
+                OnSelect: |-
+                    =UpdateContext({Subfactmapdivpopup:true
                 Width: =50
                 X: =916
                 Y: =9
