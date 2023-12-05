@@ -779,7 +779,10 @@ Factors As screen:
                 ZIndex: =8
 
                 Label20 As label:
-                    Text: ="Text"
+                    Height: =46
+                    Size: =40
+                    Text: ="Confirmation"
+                    Width: =368
                     X: =81
                     Y: =27
                     ZIndex: =1
