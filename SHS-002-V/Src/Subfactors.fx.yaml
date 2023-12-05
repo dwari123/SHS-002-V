@@ -946,8 +946,14 @@ Subfactors As screen:
                 Align: =Align.Center
                 FontWeight: =FontWeight.Bold
                 Height: =100
+                Size: =20
                 Text: ="Are you sure you want to delete?"
                 Width: =628
                 Y: =101
                 ZIndex: =3
+
+            Button9 As button:
+                Text: ="Button"
+                Y: =253
+                ZIndex: =4
 
