@@ -790,6 +790,7 @@ Factors As screen:
                     ZIndex: =1
 
                 Icon17 As icon.HorizontalLine:
+                    BorderThickness: =1
                     Height: =0
                     Icon: =Icon.HorizontalLine
                     Width: =588
