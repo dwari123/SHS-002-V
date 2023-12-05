@@ -797,3 +797,9 @@ Factors As screen:
                     Y: =73
                     ZIndex: =2
 
+                Label26 As label:
+                    Text: ="Text"
+                    X: =33
+                    Y: =99
+                    ZIndex: =3
+
