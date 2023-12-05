@@ -840,3 +840,9 @@ Subfactors As screen:
                     Y: =DataCardKey25.Y
                     ZIndex: =4
 
+        Icon23 As icon.Add:
+            Icon: =Icon.Add
+            X: =331
+            Y: =205
+            ZIndex: =3
+
