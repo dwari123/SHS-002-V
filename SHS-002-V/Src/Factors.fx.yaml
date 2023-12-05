@@ -779,8 +779,10 @@ Factors As screen:
                 ZIndex: =8
 
                 Label20 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Bold
                     Height: =46
-                    Size: =40
+                    Size: =30
                     Text: ="Confirmation"
                     Width: =368
                     X: =81
