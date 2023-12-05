@@ -774,6 +774,7 @@ Factors As screen:
             Container14 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(166, 215, 153, 1)
                 Height: =264
+                Visible: =Deletemapdifactpopup
                 Width: =588
                 X: =115
                 Y: =290
