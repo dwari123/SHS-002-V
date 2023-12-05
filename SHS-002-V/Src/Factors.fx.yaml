@@ -809,8 +809,14 @@ Factors As screen:
                     ZIndex: =3
 
                 Button10 As button:
-                    Text: ="Button"
+                    Text: ="Yes"
                     X: =33
                     Y: =200
                     ZIndex: =4
+
+                Button12 As button:
+                    Text: ="Button"
+                    X: =312
+                    Y: =200
+                    ZIndex: =5
 
