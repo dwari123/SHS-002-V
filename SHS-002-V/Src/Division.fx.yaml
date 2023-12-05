@@ -6,7 +6,7 @@ Division As screen:
 
     CanVasContainer_6 As groupContainer.manualLayoutContainer:
         Height: =App.Height-Component1_1.ComHeaderHeight
-        Width: =App.Width-Component1_1.VarMenuWidth
+        Width: =1366
         X: =Component1_9.VarMenuWidth
         Y: =Component1_1.ComHeaderHeight
         ZIndex: =20
