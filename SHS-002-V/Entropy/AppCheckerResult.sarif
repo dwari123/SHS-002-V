@@ -4424,19 +4424,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Login Page'.Form7.Username_DataCard1.DataCardValue47.AccessibleLabel"
+                  "fullyQualifiedName": "'Login Page'.PswdTxt.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Login Page'.Form7.Username_DataCard1.DataCardValue47.AccessibleLabel",
+                  "fullyQualifiedName": "'Login Page'.PswdTxt.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Login Page",
-                "type": "'Login Page'.Form7.Username_DataCard1.DataCardValue47"
+                "type": "'Login Page'.PswdTxt"
               }
             }
           ],
@@ -4454,19 +4454,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Login Page'.Form7.Password_DataCard1.DataCardValue48.AccessibleLabel"
+                  "fullyQualifiedName": "'Login Page'.UsrNameTxt.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Login Page'.Form7.Password_DataCard1.DataCardValue48.AccessibleLabel",
+                  "fullyQualifiedName": "'Login Page'.UsrNameTxt.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Login Page",
-                "type": "'Login Page'.Form7.Password_DataCard1.DataCardValue48"
+                "type": "'Login Page'.UsrNameTxt"
               }
             }
           ],
@@ -7167,6 +7167,96 @@
                 "member": "Height",
                 "module": "Upload Result",
                 "type": "'Upload Result'.CanVasContainer_15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'HACT Configuration'.CanVasContainer_16.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'HACT Configuration'.CanVasContainer_16.Y",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "HACT Configuration",
+                "type": "'HACT Configuration'.CanVasContainer_16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'HACT Configuration'.CanVasContainer_16.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'HACT Configuration'.CanVasContainer_16.Width",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "HACT Configuration",
+                "type": "'HACT Configuration'.CanVasContainer_16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'HACT Configuration'.CanVasContainer_16.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'HACT Configuration'.CanVasContainer_16.Height",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "HACT Configuration",
+                "type": "'HACT Configuration'.CanVasContainer_16"
               }
             }
           ],
