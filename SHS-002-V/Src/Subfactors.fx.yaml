@@ -853,7 +853,7 @@ Subfactors As screen:
             ZIndex: =4
 
         Label28_1 As label:
-            Text: ="Division"
+            Text: ="Action"
             X: =347
             Y: =318
             ZIndex: =5
