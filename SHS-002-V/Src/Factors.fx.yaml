@@ -701,6 +701,8 @@ Factors As screen:
         Icon14 As icon.Add:
             Height: =44
             Icon: =Icon.Add
+            OnSelect: |-
+                =SubmitForm(Form3);NewForm(Form3);UpdateContext({Mapdivpopupfact:false})
             Width: =56
             X: =333
             Y: =225
@@ -744,7 +746,7 @@ Factors As screen:
 
             Button7 As button:
                 OnSelect: =Select(Parent)
-                Text: ="Button"
+                Text: ="Delete"
                 Width: =98
                 X: =316
                 Y: =21
