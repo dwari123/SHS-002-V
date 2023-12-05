@@ -225,7 +225,28 @@
                 ZIndex: =4
 
     Button11 As button:
-        OnSelect: =
+        OnSelect: |-
+            =If(
+                !IsBlank(
+                    LookUp(
+                        'Login Details',
+                        Username = UsrNameTxt.Text And Password = PswdTxt.Text
+                    )
+                ),
+                If(
+                    UsrNameTxt.Text = "admin",
+                    Navigate(Dashboard),
+                    If(
+                        UsrNameTxt.Text = "champion",
+                        Navigate('Dashboard(C)')
+                    )
+                ),
+                Notify("Please Enter Valid User Name And Password"),
+                NotificationType.Error,
+                2000
+            );
+            Reset(UsrNameTxt);
+            Reset(PswdTxt);
         Text: ="Login"
         X: =1016
         Y: =600
