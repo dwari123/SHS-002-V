@@ -716,7 +716,7 @@ Factors As screen:
             ZIndex: =4
 
         Label18_1 As label:
-            Text: ="Text"
+            Text: ="Action"
             X: =218
             Y: =338
             ZIndex: =5
