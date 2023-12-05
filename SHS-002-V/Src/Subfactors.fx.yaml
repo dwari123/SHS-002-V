@@ -953,6 +953,8 @@ Subfactors As screen:
                 ZIndex: =3
 
             Button9 As button:
+                OnSelect: |-
+                    =Remove('MapDiv(subfactors)',Gallery10.Selected);UpdateContext({deletemapdivsubfactpopup:false
                 Text: ="Yes"
                 Y: =253
                 ZIndex: =4
