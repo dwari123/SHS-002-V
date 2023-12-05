@@ -289,3 +289,10 @@ Component1 As CanvasComponent:
         Y: =135
         ZIndex: =5
 
+        Label15 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Title
+            X: =102
+            Y: =33
+            ZIndex: =1
+
