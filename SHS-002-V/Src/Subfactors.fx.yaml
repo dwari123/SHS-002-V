@@ -884,7 +884,7 @@ Subfactors As screen:
 
             Label29 As label:
                 OnSelect: =Select(Parent)
-                Text: =ThisItem.Division
+                Text: =ThisItem.Division.Value
                 X: =12
                 Y: =9
                 ZIndex: =1
