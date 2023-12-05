@@ -798,7 +798,12 @@ Factors As screen:
                     ZIndex: =2
 
                 Label26 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Bold
+                    Height: =46
+                    Size: =20
                     Text: ="Are you sure you want to delete?"
+                    Width: =378
                     X: =33
                     Y: =99
                     ZIndex: =3
