@@ -41,8 +41,7 @@
         "Y",
         "Width",
         "Height",
-        "ZIndex",
-        "MaxTemplateSize"
+        "ZIndex"
       ],
       "GalleryTemplateChildName": "galleryTemplate1_2",
       "HasDynamicProperties": false,
@@ -182,11 +181,6 @@
         {
           "Category": "Design",
           "PropertyName": "ZIndex",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "MaxTemplateSize",
           "RuleProviderType": "Unknown"
         }
       ],

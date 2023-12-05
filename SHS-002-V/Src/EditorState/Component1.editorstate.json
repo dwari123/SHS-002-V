@@ -330,7 +330,7 @@
       "MetaDataIDKey": "",
       "Name": "Container1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -490,8 +490,7 @@
           "InvariantPropertyName": "ShowScrollbar",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        },
-        "MaxTemplateSize"
+        }
       ],
       "GalleryTemplateChildName": "galleryTemplate9",
       "HasDynamicProperties": false,
@@ -505,7 +504,7 @@
       "MetaDataIDKey": "",
       "Name": "Gallery3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -642,11 +641,6 @@
           "Category": "Design",
           "PropertyName": "ShowScrollbar",
           "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "MaxTemplateSize",
-          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultGalleryStyle",
@@ -757,7 +751,7 @@
       "MetaDataIDKey": "",
       "Name": "galleryTemplate9",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1753,7 +1747,7 @@
       "MetaDataIDKey": "",
       "Name": "Label15",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3175,8 +3169,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "ZIndex",
-        "MaxTemplateSize"
+        "ZIndex"
       ],
       "GalleryTemplateChildName": "galleryTemplate3",
       "HasDynamicProperties": false,
@@ -3190,7 +3183,7 @@
       "MetaDataIDKey": "",
       "Name": "MainMenu",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3312,11 +3305,6 @@
           "Category": "Design",
           "PropertyName": "LoadingSpinnerColor",
           "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "MaxTemplateSize",
-          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultGalleryStyle",
@@ -3391,8 +3379,7 @@
           "InvariantPropertyName": "Visible",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        },
-        "MaxTemplateSize"
+        }
       ],
       "GalleryTemplateChildName": "galleryTemplate3_6",
       "HasDynamicProperties": false,
@@ -3532,11 +3519,6 @@
         {
           "Category": "Design",
           "PropertyName": "Visible",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "MaxTemplateSize",
           "RuleProviderType": "Unknown"
         }
       ],
