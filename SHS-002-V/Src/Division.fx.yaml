@@ -190,7 +190,7 @@ Division As screen:
             RadiusTopLeft: =10
             RadiusTopRight: =10
             Visible: =showpopup
-            Width: =1092.8
+            Width: =1242
             ZIndex: =14
 
             Label17 As label:

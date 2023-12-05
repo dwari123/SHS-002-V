@@ -79,6 +79,9 @@
         ZIndex: =9
 
     Button11 As button:
+        Fill: =RGBA(23, 145, 131, 1)
+        Height: =48
+        HoverFill: =Color.HotPink
         OnSelect: |
             =If(
                 !IsBlank(
@@ -117,9 +120,13 @@
             );
             Reset(UsrNameTxt);
             Reset(PswdTxt);
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
         Text: ="Login"
-        X: =998
-        Y: =567
+        X: =1005
+        Y: =597
         ZIndex: =11
 
     Label43 As label:
@@ -161,21 +168,30 @@
         ZIndex: =15
 
     UsrNameTxt As text:
+        BorderColor: =RGBA(255, 255, 255, 1)
         Default: =""
         Height: =47
         HintText: ="Enter User Name"
+        HoverBorderColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Size: =15
         Width: =339
-        X: =910
-        Y: =314
+        X: =916
+        Y: =322
         ZIndex: =16
 
     PswdTxt As text:
+        BorderColor: =RGBA(255, 255, 255, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
         Height: =49
         HintText: ="Enter Password"
+        HoverBorderColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
         Mode: =TextMode.Password
+        Size: =15
         Width: =339
-        X: =910
-        Y: =426
+        X: =916
+        Y: =439
         ZIndex: =17
 
