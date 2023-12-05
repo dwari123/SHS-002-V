@@ -481,7 +481,8 @@
         "Y",
         "Width",
         "Height",
-        "ZIndex"
+        "ZIndex",
+        "Visible"
       ],
       "GalleryTemplateChildName": "galleryTemplate9",
       "HasDynamicProperties": false,
@@ -506,6 +507,11 @@
         {
           "Category": "Data",
           "PropertyName": "WrapCount",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Visible",
           "RuleProviderType": "Unknown"
         },
         {
