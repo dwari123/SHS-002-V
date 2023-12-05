@@ -196,12 +196,7 @@ Component1 As CanvasComponent:
         Items: =Component1.Adminicon_menu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: |-
-            =true;
-            Navigate(
-                ThisItem.TargetScreen,
-                ScreenTransition.None
-            )
+        OnSelect: =Navigate(ThisItem.TargetScreen,Transition.None);
         TemplateFill: =If(ThisItem.Title=Component1.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =39
         Visible: =ShowMenuadmin
@@ -213,7 +208,7 @@ Component1 As CanvasComponent:
         Label31 As label:
             FontWeight: =FontWeight.Bold
             Height: =30
-            OnSelect: =Select(Parent)
+            OnSelect: =
             Text: =ThisItem.Title
             Width: =210
             X: =30
