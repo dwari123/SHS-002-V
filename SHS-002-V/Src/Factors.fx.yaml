@@ -789,3 +789,10 @@ Factors As screen:
                     Y: =27
                     ZIndex: =1
 
+                Icon17 As icon.HorizontalLine:
+                    Height: =0
+                    Icon: =Icon.HorizontalLine
+                    Width: =588
+                    Y: =73
+                    ZIndex: =2
+
