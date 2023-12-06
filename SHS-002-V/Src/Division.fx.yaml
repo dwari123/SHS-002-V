@@ -11,15 +11,6 @@ Division As screen:
         Y: =Component1_1.ComHeaderHeight
         ZIndex: =20
 
-        Arrow1_4 As arrow.backArrow:
-            Fill: =RGBA(0, 18, 107, 1)
-            Height: =34
-            OnSelect: =Navigate(Administration)
-            Width: =32
-            X: =10
-            Y: =17
-            ZIndex: =1
-
         Label12 As label:
             FontWeight: =FontWeight.Bold
             Size: =17
@@ -1541,4 +1532,13 @@ Division As screen:
         X: =DivComp.VarMenuWidth
         Y: =DivComp.ComHeaderHeight
         ZIndex: =21
+
+        Arrow1_4 As arrow.backArrow:
+            Fill: =RGBA(0, 18, 107, 1)
+            Height: =34
+            OnSelect: =Navigate(Administration)
+            Width: =40
+            X: =10
+            Y: =17
+            ZIndex: =1
 
