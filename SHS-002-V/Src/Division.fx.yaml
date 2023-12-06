@@ -222,26 +222,21 @@ Division As screen:
                     Container5_3 As groupContainer.horizontalAutoLayoutContainer:
                         Height: =Parent.Height
                         LayoutAlignItems: =LayoutAlignItems.Center
-                        LayoutGap: =50
+                        LayoutGap: =40
                         LayoutJustifyContent: =LayoutJustifyContent.Center
                         LayoutMinHeight: =60
                         LayoutMinWidth: =250
                         LayoutMode: =LayoutMode.Auto
-                        Visible: =false
                         Width: =Parent.Width
                         ZIndex: =3
 
-                        Edit As button:
-                            OnSelect: |-
-                                =UpdateContext({VarEditPopup:true})
-                            Text: ="Edit"
+                        Button3 As button:
+                            Text: ="Edi"
                             Width: =100
                             ZIndex: =1
 
-                        Dlte As button:
-                            OnSelect: |-
-                                =UpdateContext({varDeletpopup:true})
-                            Text: ="Del"
+                        Button3_1 As button:
+                            Text: ="Delete"
                             Width: =100
                             ZIndex: =2
 
