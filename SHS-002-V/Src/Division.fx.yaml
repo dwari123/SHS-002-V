@@ -11,18 +11,6 @@ Division As screen:
         Y: =Component1_1.ComHeaderHeight
         ZIndex: =20
 
-        Label12 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =17
-            Text: ="Division"
-            Y: =62
-            ZIndex: =2
-
-        Search_4 As Search:
-            X: =577
-            Y: =62
-            ZIndex: =3
-
         Icon5_3 As icon.HorizontalLine:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =1
@@ -39,27 +27,6 @@ Division As screen:
             X: =21
             Y: =126
             ZIndex: =4
-
-        "'Add doc_Button_4' As 'Add doc_Button'":
-            X: =796
-            Y: =62
-            ZIndex: =5
-
-        Button1_1 As button:
-            DisabledFill: =Self.Fill
-            Fill: =RGBA(5, 89, 8, 1)
-            Height: =38
-            HoverFill: =Self.Fill
-            OnSelect: |-
-                =UpdateContext({showpopup:true})
-            PaddingLeft: =35
-            PressedColor: =Color.White
-            PressedFill: =Self.Fill
-            Text: ="Add"
-            Width: =116
-            X: =976
-            Y: =64
-            ZIndex: =6
 
         Icon15_1 As icon.Add:
             Color: =RGBA(255, 255, 255, 1)
@@ -1550,4 +1517,61 @@ Division As screen:
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
+
+            Container21 As groupContainer.horizontalAutoLayoutContainer:
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =1
+
+                Label12 As label:
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    Height: =Parent.Height
+                    Size: =17
+                    Text: ="Division"
+                    Y: =62
+                    ZIndex: =1
+
+            Container21_1 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutGap: =10
+                LayoutJustifyContent: =LayoutJustifyContent.End
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =2
+
+                Search_4 As Search:
+                    LayoutMinHeight: =640
+                    LayoutMinWidth: =640
+                    X: =577
+                    Y: =62
+
+                "'Add doc_Button_4' As 'Add doc_Button'":
+                    LayoutMinHeight: =640
+                    LayoutMinWidth: =640
+                    X: =796
+                    Y: =62
+                    ZIndex: =2
+
+                Button1_1 As button:
+                    DisabledFill: =Self.Fill
+                    Fill: =RGBA(5, 89, 8, 1)
+                    Height: =38
+                    HoverFill: =Self.Fill
+                    OnSelect: |-
+                        =UpdateContext({showpopup:true})
+                    PaddingLeft: =35
+                    PressedColor: =Color.White
+                    PressedFill: =Self.Fill
+                    Text: ="Add"
+                    Width: =116
+                    X: =399
+                    Y: =2
+                    ZIndex: =3
 
