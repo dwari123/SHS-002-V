@@ -181,11 +181,78 @@ Division As screen:
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Visible: =varshowdeletedivpopup
+        Visible: =varDeletePopUp
         Width: =App.Width-DivComp.VarMenuWidth
         X: =DivComp.VarMenuWidth
         Y: =DivComp.ComHeaderHeight
         ZIndex: =22
+
+        Container27_3 As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =Color.AliceBlue
+            FillPortions: =0
+            Height: =300
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =700
+            ZIndex: =1
+
+            Icon28_3 As icon.Cancel:
+                AlignInContainer: =AlignInContainer.End
+                Height: =50
+                Icon: =Icon.Cancel
+                OnSelect: |-
+                    =UpdateContext({varDeletePopUp:false})
+                Width: =50
+                ZIndex: =1
+
+            Container28_5 As groupContainer.horizontalAutoLayoutContainer:
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutGap: =50
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =3
+
+                Label22_3 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    Height: =52
+                    Size: =20
+                    Text: ="Are you sure! Do you want to delete?"
+                    Width: =192
+                    X: =15
+                    Y: =27
+                    ZIndex: =1
+
+            Container28_6 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                FillPortions: =0
+                Height: =100
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutGap: =50
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =4
+
+                Button4_4 As button:
+                    OnSelect: |-
+                        =Remove(Division_1,Gallery6.Selected);UpdateContext({varshowdeletedivpopup:false});Notify("The divison has been deleted successfully",NotificationType.Success)
+                    Text: ="Save"
+                    ZIndex: =1
+
+                Button4_5 As button:
+                    OnSelect: |-
+                        =UpdateContext({varDeletePopUp:false})
+                    Text: ="Cancel"
+                    ZIndex: =2
 
     "'Edit Pop' As groupContainer.verticalAutoLayoutContainer":
         DropShadow: =DropShadow.Regular
@@ -223,6 +290,17 @@ Division As screen:
                 Width: =50
                 ZIndex: =1
 
+            Label22_2 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Height: =52
+                Size: =20
+                Text: ="Edit Division"
+                Width: =192
+                X: =15
+                Y: =27
+                ZIndex: =2
+
             Container28_1 As groupContainer.horizontalAutoLayoutContainer:
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutGap: =50
@@ -243,6 +321,18 @@ Division As screen:
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =4
+
+                Button4_2 As button:
+                    OnSelect: |-
+                        =SubmitForm(Form2);UpdateContext({varshoweditpopup:false});Notify("The division has been updated successfully",NotificationType.Success);ResetForm(Form2);
+                    Text: ="Save"
+                    ZIndex: =1
+
+                Button4_3 As button:
+                    OnSelect: |-
+                        =UpdateContext({varshoweditpopup:false})
+                    Text: ="Cancel"
+                    ZIndex: =2
 
     AddPop As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Regular
