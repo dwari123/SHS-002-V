@@ -1,13 +1,13 @@
 Division As screen:
 
-    Component1_9 As Component1:
+    DivComp As Component1:
         CurrentScreen: ="Administration"
         Height: =768
 
     CanVasContainer_6 As groupContainer.manualLayoutContainer:
         Height: =App.Height-Component1_1.ComHeaderHeight
         Width: =1366
-        X: =Component1_9.VarMenuWidth
+        X: =DivComp.VarMenuWidth
         Y: =Component1_1.ComHeaderHeight
         ZIndex: =20
 
@@ -1532,4 +1532,13 @@ Division As screen:
                 X: =346
                 Y: =326
                 ZIndex: =5
+
+    Main As groupContainer.verticalAutoLayoutContainer:
+        Height: =App.Height-DivComp.ComHeaderHeight
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =App.Width-DivComp.VarMenuWidth
+        X: =DivComp.VarMenuWidth
+        Y: =DivComp.ComHeaderHeight
+        ZIndex: =21
 
