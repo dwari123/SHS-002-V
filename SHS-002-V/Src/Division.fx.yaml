@@ -173,6 +173,78 @@ Division As screen:
             Width: =App.Width-DivComp.Width
             ZIndex: =5
 
+            Gallery6 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                Items: =Division_1
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateSize: =60
+                ZIndex: =1
+
+                Container5 As groupContainer.horizontalAutoLayoutContainer:
+                    Height: =60
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+                    Container5_1 As groupContainer.horizontalAutoLayoutContainer:
+                        Height: =Parent.Height
+                        LayoutMinHeight: =60
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =1
+
+                        Label17 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            Height: =Parent.Height
+                            Text: =ThisItem.'Division Code'
+                            ZIndex: =1
+
+                    Container5_2 As groupContainer.horizontalAutoLayoutContainer:
+                        Height: =Parent.Height
+                        LayoutMinHeight: =60
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =2
+
+                        Label17_1 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            Height: =Parent.Height
+                            Text: =ThisItem.'Division Name'
+                            ZIndex: =1
+
+                    Container5_3 As groupContainer.horizontalAutoLayoutContainer:
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Center
+                        LayoutGap: =50
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =60
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Visible: =false
+                        Width: =Parent.Width
+                        ZIndex: =3
+
+                        Edit As button:
+                            OnSelect: |-
+                                =UpdateContext({VarEditPopup:true})
+                            Text: ="Edit"
+                            Width: =100
+                            ZIndex: =1
+
+                        Dlte As button:
+                            OnSelect: |-
+                                =UpdateContext({varDeletpopup:true})
+                            Text: ="Del"
+                            Width: =100
+                            ZIndex: =2
+
     DeletePop As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Regular
         Fill: =RGBA(0, 0, 0, 0.5)
