@@ -234,11 +234,15 @@ Division As screen:
                         ZIndex: =3
 
                         Button3 As button:
+                            OnSelect: |-
+                                =UpdateContext({varshoweditpopup:true})
                             Text: ="Edit"
                             Width: =100
                             ZIndex: =1
 
                         Button3_1 As button:
+                            OnSelect: |-
+                                =UpdateContext({varDeletePopUp:true})
                             Text: ="Delete"
                             Width: =100
                             ZIndex: =2
