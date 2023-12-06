@@ -1,74 +1,15 @@
 Division As screen:
 
-    Component1_9 As Component1:
+    DivComp As Component1:
         CurrentScreen: ="Administration"
         Height: =768
 
     CanVasContainer_6 As groupContainer.manualLayoutContainer:
         Height: =App.Height-Component1_1.ComHeaderHeight
         Width: =1366
-        X: =Component1_9.VarMenuWidth
+        X: =DivComp.VarMenuWidth
         Y: =Component1_1.ComHeaderHeight
         ZIndex: =20
-
-        Arrow1_4 As arrow.backArrow:
-            Fill: =RGBA(0, 18, 107, 1)
-            Height: =34
-            OnSelect: =Navigate(Administration)
-            Width: =32
-            X: =10
-            Y: =17
-            ZIndex: =1
-
-        Label12 As label:
-            FontWeight: =FontWeight.Bold
-            Size: =17
-            Text: ="Division"
-            Y: =62
-            ZIndex: =2
-
-        Search_4 As Search:
-            X: =577
-            Y: =62
-            ZIndex: =3
-
-        Icon5_3 As icon.HorizontalLine:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderThickness: =1
-            Color: =RGBA(214, 223, 238, 1)
-            FocusedBorderThickness: =1
-            Height: =1
-            Icon: =Icon.HorizontalLine
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            Rotation: =1
-            Width: =1050
-            X: =21
-            Y: =126
-            ZIndex: =4
-
-        "'Add doc_Button_4' As 'Add doc_Button'":
-            X: =796
-            Y: =62
-            ZIndex: =5
-
-        Button1_1 As button:
-            DisabledFill: =Self.Fill
-            Fill: =RGBA(5, 89, 8, 1)
-            Height: =38
-            HoverFill: =Self.Fill
-            OnSelect: |-
-                =UpdateContext({showpopup:true})
-            PaddingLeft: =35
-            PressedColor: =Color.White
-            PressedFill: =Self.Fill
-            Text: ="Add"
-            Width: =116
-            X: =976
-            Y: =64
-            ZIndex: =6
 
         Icon15_1 As icon.Add:
             Color: =RGBA(255, 255, 255, 1)
@@ -100,84 +41,6 @@ Division As screen:
             X: =14
             Y: =197
             ZIndex: =9
-
-            Label21_1 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'Division Name'
-                X: =302
-                ZIndex: =1
-
-            Label21 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.'Division Code'
-                X: =33
-                ZIndex: =2
-
-            Button4 As button:
-                OnSelect: |-
-                    =UpdateContext({varshoweditpopup:true})
-                Text: ="Edit"
-                Width: =114
-                X: =606
-                ZIndex: =3
-
-            Button4_1 As button:
-                OnSelect: |-
-                    =UpdateContext({varshowdeletedivpopup:true})
-                Text: ="Delete"
-                Width: =114
-                X: =770
-                ZIndex: =4
-
-        "'Division Code' As label":
-            Align: =Align.Center
-            FontWeight: =FontWeight.Bold
-            Height: =44
-            Size: =20
-            Text: ="Division Code"
-            Width: =220
-            X: =10
-            Y: =130
-            ZIndex: =10
-
-        "'Division Name' As label":
-            Align: =Align.Center
-            FontWeight: =FontWeight.Bold
-            Height: =44
-            Size: =20
-            Text: ="Division Name"
-            Width: =220
-            X: =293
-            Y: =130
-            ZIndex: =11
-
-        Action_division As label:
-            Align: =Align.Center
-            FontWeight: =FontWeight.Bold
-            Height: =44
-            Size: =20
-            Text: ="Action"
-            Width: =220
-            X: =661
-            Y: =127
-            ZIndex: =12
-
-        Icon5_19 As icon.HorizontalLine:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderThickness: =1
-            Color: =RGBA(214, 223, 238, 1)
-            FocusedBorderThickness: =1
-            Height: =1
-            Icon: =Icon.HorizontalLine
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            Rotation: =1
-            Width: =1050
-            X: =21
-            Y: =185
-            ZIndex: =13
 
         Container6 As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(40, 134, 222, 1)
@@ -1477,59 +1340,312 @@ Division As screen:
             Width: =1092.8
             ZIndex: =17
 
-        Container10 As groupContainer.manualLayoutContainer:
-            Fill: =RGBA(238, 204, 204, 1)
-            Height: =445
-            Visible: =varshowdeletedivpopup
-            Width: =948
-            X: =144.79999999999995
-            Y: =197
-            ZIndex: =18
+    Main As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Height: =App.Height-DivComp.ComHeaderHeight
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =App.Width-DivComp.VarMenuWidth
+        X: =DivComp.VarMenuWidth
+        Y: =DivComp.ComHeaderHeight
+        ZIndex: =21
 
-            Label23 As label:
-                Align: =Align.Center
-                FontWeight: =FontWeight.Bold
-                Height: =74
-                Size: =30
-                Text: ="Confirmation"
-                Width: =378
-                X: =186
-                Y: =27
+        Arrow1_4 As arrow.backArrow:
+            Fill: =RGBA(0, 18, 107, 1)
+            Height: =34
+            OnSelect: =Navigate(Administration)
+            Width: =40
+            X: =10
+            Y: =17
+            ZIndex: =1
+
+        Container20 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =80
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            Container21 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
-            Icon16 As icon.HorizontalLine:
-                BorderThickness: =1
-                Height: =0
-                Icon: =Icon.HorizontalLine
-                Width: =939
-                X: =1
-                Y: =101
+                Label12 As label:
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    Height: =Parent.Height
+                    Size: =17
+                    Text: ="Division"
+                    Y: =62
+                    ZIndex: =1
+
+            Container21_1 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutGap: =10
+                LayoutJustifyContent: =LayoutJustifyContent.End
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
-            Label24 As label:
-                Align: =Align.Center
-                FontWeight: =FontWeight.Bold
-                Height: =158
-                Size: =40
-                Text: ="Are you sure you want to delete?"
-                Width: =750
-                X: =63
-                Y: =150
+                Search_4 As Search:
+                    LayoutMinHeight: =640
+                    LayoutMinWidth: =640
+                    X: =577
+                    Y: =62
+
+                "'Add doc_Button_4' As 'Add doc_Button'":
+                    LayoutMinHeight: =640
+                    LayoutMinWidth: =640
+                    X: =796
+                    Y: =62
+                    ZIndex: =2
+
+                Button1_1 As button:
+                    DisabledFill: =Self.Fill
+                    Fill: =RGBA(5, 89, 8, 1)
+                    Height: =38
+                    HoverFill: =Self.Fill
+                    OnSelect: |-
+                        =UpdateContext({showpopup:true})
+                    PaddingLeft: =35
+                    PressedColor: =Color.White
+                    PressedFill: =Self.Fill
+                    Text: ="Add"
+                    Width: =116
+                    X: =399
+                    Y: =2
+                    ZIndex: =3
+
+        Container20_1 As groupContainer.horizontalAutoLayoutContainer:
+            BorderThickness: =2
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =80
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =4
+
+            Container21_2 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =1
+
+                "'Division Code' As label":
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Bold
+                    Height: =44
+                    Size: =20
+                    Text: ="Division Code"
+                    Width: =220
+                    X: =10
+                    Y: =130
+                    ZIndex: =1
+
+            Container21_3 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutGap: =10
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =2
+
+                "'Division Name' As label":
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Bold
+                    Height: =44
+                    Size: =20
+                    Text: ="Division Name"
+                    Width: =220
+                    X: =293
+                    Y: =130
+                    ZIndex: =1
+
+            Container21_4 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
                 ZIndex: =3
 
-            Button6 As button:
-                OnSelect: |-
-                    =Remove(Division_1,Gallery6.Selected);UpdateContext({varshowdeletedivpopup:false});Notify("The divison has been deleted successfully",NotificationType.Success)
-                Text: ="Yes"
-                X: =63
-                Y: =326
-                ZIndex: =4
+                Action_division As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    Height: =44
+                    Size: =20
+                    Text: ="Action"
+                    Width: =220
+                    X: =661
+                    Y: =127
+                    ZIndex: =1
 
-            Button6_1 As button:
+        Container22 As groupContainer.verticalAutoLayoutContainer:
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =App.Width-DivComp.Width
+            ZIndex: =5
+
+            Gallery12 As gallery.galleryVertical:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DelayItemLoading: =true
+                Height: =Parent.Height
+                Items: =Division_1
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                ShowScrollbar: =false
+                TemplateSize: =60
+                Width: =App.Width-DivComp.VarMenuWidth
+                ZIndex: =1
+
+                Container23 As groupContainer.horizontalAutoLayoutContainer:
+                    Height: =60
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+                    Container23_1 As groupContainer.horizontalAutoLayoutContainer:
+                        DropShadow: =DropShadow.None
+                        Height: =60
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =60
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =1
+
+                        Label21 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            Text: =ThisItem.'Division Code'
+                            X: =33
+                            ZIndex: =1
+
+                    Container23_2 As groupContainer.horizontalAutoLayoutContainer:
+                        DropShadow: =DropShadow.None
+                        Height: =60
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =60
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =2
+
+                        Label21_1 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            Text: =ThisItem.'Division Name'
+                            X: =302
+                            ZIndex: =1
+
+                    Container23_3 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.Center
+                        DropShadow: =DropShadow.None
+                        Height: =60
+                        LayoutAlignItems: =LayoutAlignItems.Center
+                        LayoutGap: =15
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =60
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =3
+
+                        Button4 As button:
+                            OnSelect: |-
+                                =UpdateContext({varshoweditpopup:true})
+                            Text: ="Edit"
+                            Width: =114
+                            X: =606
+                            ZIndex: =1
+
+                        Button4_1 As button:
+                            OnSelect: |-
+                                =UpdateContext({varshowdeletedivpopup:true})
+                            Text: ="Delete"
+                            Width: =114
+                            X: =164
+                            ZIndex: =2
+
+    Main_1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Fill: =RGBA(0, 0, 0, 0.5)
+        Height: =App.Height-DivComp.ComHeaderHeight
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =App.Width-DivComp.VarMenuWidth
+        X: =DivComp.VarMenuWidth
+        Y: =DivComp.ComHeaderHeight
+        ZIndex: =22
+
+        Container27 As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =Color.AliceBlue
+            FillPortions: =0
+            Height: =300
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =700
+            ZIndex: =1
+
+            Icon28 As icon.Cancel:
+                AlignInContainer: =AlignInContainer.End
+                Height: =50
+                Icon: =Icon.Cancel
                 OnSelect: |-
                     =UpdateContext({varshowdeletedivpopup:false})
-                Text: ="No"
-                X: =346
-                Y: =326
-                ZIndex: =5
+                Width: =50
+                ZIndex: =1
+
+            Label24_1 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Height: =88
+                Size: =20
+                Text: ="Are you sure you want to delete?"
+                Width: =Parent.Width
+                X: =63
+                Y: =150
+                ZIndex: =2
+
+            Container28 As groupContainer.horizontalAutoLayoutContainer:
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutGap: =50
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =3
 
